@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C3E43DD1C3DBCE00050A209 /* PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */; };
 		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
@@ -15,7 +14,6 @@
 		2C3E43E41C3DBE710050A209 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C95C1C3D98B500AC9F68 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */; };
-		2CE5C9681C3D98B500AC9F68 /* PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */; };
 		2CE5C9811C3DB1D900AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9771C3DB1D900AC9F68 /* Portal.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,7 +41,6 @@
 		2CE5C95B1C3D98B500AC9F68 /* Portal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
 		2CE5C95D1C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE5C9621C3D98B500AC9F68 /* PortalTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PortalTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalTests.swift; sourceTree = "<group>"; };
 		2CE5C9691C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE5C9771C3DB1D900AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C9801C3DB1D900AC9F68 /* PortalTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PortalTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -119,7 +116,6 @@
 		2CE5C9661C3D98B500AC9F68 /* PortalTests */ = {
 			isa = PBXGroup;
 			children = (
-				2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */,
 				2CE5C9691C3D98B500AC9F68 /* Info.plist */,
 				2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */,
 				2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */,
@@ -308,7 +304,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE5C9681C3D98B500AC9F68 /* PortalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +318,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C3E43DD1C3DBCE00050A209 /* PortalTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
