@@ -4,3 +4,18 @@
 [submodule "Carthage/Checkouts/Quick"]
 	path = Carthage/Checkouts/Quick
 	url = https://github.com/Quick/Quick.git
+[submodule "Carthage/Checkouts/Alamofire"]
+	path = Carthage/Checkouts/Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "Carthage/Checkouts/Argo"]
+	path = Carthage/Checkouts/Argo
+	url = https://github.com/thoughtbot/Argo.git
+[submodule "Carthage/Checkouts/Result"]
+	path = Carthage/Checkouts/Result
+	url = https://github.com/antitypical/Result.git
+[submodule "Carthage/Checkouts/Ogra"]
+	path = Carthage/Checkouts/Ogra
+	url = https://github.com/edwardaux/Ogra.git
+[submodule "Carthage/Checkouts/Curry"]
+	path = Carthage/Checkouts/Curry
+	url = https://github.com/thoughtbot/Curry.git

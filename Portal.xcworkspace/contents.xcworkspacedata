@@ -5,9 +5,24 @@
       location = "container:Portal.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Carthage/Checkouts/Alamofire/Alamofire.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Argo/Argo.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Curry/Curry.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:Carthage/Checkouts/Ogra/Ogra.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Result/Result.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,5 @@
+github "Alamofire/Alamofire" ~> 3.1.4
+github "antitypical/Result" ~> 1.0.1
+github "edwardaux/Ogra" ~> 2.2.0
+github "thoughtbot/Argo" ~> 2.2.0
+github "thoughtbot/Curry" ~> 1.4.0

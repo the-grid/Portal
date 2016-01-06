@@ -12,6 +12,16 @@
 		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
 		2C3E43E31C3DBDB50050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
 		2C3E43E41C3DBE710050A209 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
+		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
+		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
+		2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3851C3DDFC300644053 /* Ogra.framework */; };
+		2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
+		2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
+		2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
+		2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
+		2CB618C31C3DE086002766B5 /* Ogra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3851C3DDFC300644053 /* Ogra.framework */; };
+		2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
 		2CE5C95C1C3D98B500AC9F68 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */; };
 		2CE5C9811C3DB1D900AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9771C3DB1D900AC9F68 /* Portal.framework */; };
@@ -35,6 +45,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BC3851C3DDFC300644053 /* Ogra.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Ogra.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C7BC3861C3DDFC300644053 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C9581C3D98B500AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +66,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */,
+				2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */,
+				2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */,
+				2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */,
+				2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +88,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */,
+				2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */,
+				2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */,
+				2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */,
+				2CB618C31C3DE086002766B5 /* Ogra.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,6 +134,11 @@
 			children = (
 				2CE5C95B1C3D98B500AC9F68 /* Portal.h */,
 				2CE5C95D1C3D98B500AC9F68 /* Info.plist */,
+				2C7BC3821C3DDFC300644053 /* Alamofire.framework */,
+				2C7BC3831C3DDFC300644053 /* Argo.framework */,
+				2C7BC3841C3DDFC300644053 /* Curry.framework */,
+				2C7BC3851C3DDFC300644053 /* Ogra.framework */,
+				2C7BC3861C3DDFC300644053 /* Result.framework */,
 			);
 			path = Portal;
 			sourceTree = "<group>";
