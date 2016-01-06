@@ -26,7 +26,7 @@
 		2CE5C9581C3D98B500AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C95B1C3D98B500AC9F68 /* Portal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
 		2CE5C95D1C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2CE5C9621C3D98B500AC9F68 /* PortalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CE5C9621C3D98B500AC9F68 /* PortalTests-Mac.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PortalTests-Mac.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortalTests.swift; sourceTree = "<group>"; };
 		2CE5C9691C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,7 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE5C9581C3D98B500AC9F68 /* Portal.framework */,
-				2CE5C9621C3D98B500AC9F68 /* PortalTests.xctest */,
+				2CE5C9621C3D98B500AC9F68 /* PortalTests-Mac.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,9 +100,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		2CE5C9571C3D98B500AC9F68 /* Portal */ = {
+		2CE5C9571C3D98B500AC9F68 /* Portal-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CE5C96C1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "Portal" */;
+			buildConfigurationList = 2CE5C96C1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "Portal-Mac" */;
 			buildPhases = (
 				2CE5C9531C3D98B500AC9F68 /* Sources */,
 				2CE5C9541C3D98B500AC9F68 /* Frameworks */,
@@ -113,14 +113,14 @@
 			);
 			dependencies = (
 			);
-			name = Portal;
+			name = "Portal-Mac";
 			productName = Portal;
 			productReference = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		2CE5C9611C3D98B500AC9F68 /* PortalTests */ = {
+		2CE5C9611C3D98B500AC9F68 /* PortalTests-Mac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CE5C96F1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests" */;
+			buildConfigurationList = 2CE5C96F1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests-Mac" */;
 			buildPhases = (
 				2CE5C95E1C3D98B500AC9F68 /* Sources */,
 				2CE5C95F1C3D98B500AC9F68 /* Frameworks */,
@@ -131,9 +131,9 @@
 			dependencies = (
 				2CE5C9651C3D98B500AC9F68 /* PBXTargetDependency */,
 			);
-			name = PortalTests;
+			name = "PortalTests-Mac";
 			productName = PortalTests;
-			productReference = 2CE5C9621C3D98B500AC9F68 /* PortalTests.xctest */;
+			productReference = 2CE5C9621C3D98B500AC9F68 /* PortalTests-Mac.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -166,8 +166,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CE5C9571C3D98B500AC9F68 /* Portal */,
-				2CE5C9611C3D98B500AC9F68 /* PortalTests */,
+				2CE5C9571C3D98B500AC9F68 /* Portal-Mac */,
+				2CE5C9611C3D98B500AC9F68 /* PortalTests-Mac */,
 			);
 		};
 /* End PBXProject section */
@@ -210,7 +210,7 @@
 /* Begin PBXTargetDependency section */
 		2CE5C9651C3D98B500AC9F68 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2CE5C9571C3D98B500AC9F68 /* Portal */;
+			target = 2CE5C9571C3D98B500AC9F68 /* Portal-Mac */;
 			targetProxy = 2CE5C9641C3D98B500AC9F68 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -315,7 +315,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.thegrid.Portal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Portal;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -333,7 +333,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = io.thegrid.Portal;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Portal;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
@@ -372,7 +372,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CE5C96C1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "Portal" */ = {
+		2CE5C96C1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "Portal-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CE5C96D1C3D98B500AC9F68 /* Debug */,
@@ -380,7 +380,7 @@
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		2CE5C96F1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests" */ = {
+		2CE5C96F1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests-Mac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CE5C9701C3D98B500AC9F68 /* Debug */,
