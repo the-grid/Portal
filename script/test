@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+xcodebuild -workspace Portal.xcworkspace -scheme Portal-Mac -sdk macosx clean test &&
+xcodebuild -workspace Portal.xcworkspace -scheme Portal-iOS -sdk iphonesimulator -destination "platform=iOS Simulator,name=iPhone 6s,OS=9.0" clean test
