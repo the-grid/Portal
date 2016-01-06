@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		2C3E43DD1C3DBCE00050A209 /* PortalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */; };
+		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
+		2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
+		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
+		2C3E43E31C3DBDB50050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
 		2C3E43E41C3DBE710050A209 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C95C1C3D98B500AC9F68 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */; };
@@ -33,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C9581C3D98B500AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C95B1C3D98B500AC9F68 /* Portal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
 		2CE5C95D1C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +62,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */,
+				2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */,
+				2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +79,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CE5C9811C3DB1D900AC9F68 /* Portal.framework in Frameworks */,
+				2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */,
+				2C3E43E31C3DBDB50050A209 /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,6 +121,8 @@
 			children = (
 				2CE5C9671C3D98B500AC9F68 /* PortalTests.swift */,
 				2CE5C9691C3D98B500AC9F68 /* Info.plist */,
+				2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */,
+				2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */,
 			);
 			path = PortalTests;
 			sourceTree = "<group>";
@@ -568,6 +580,7 @@
 				2CE5C96E1C3D98B500AC9F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CE5C96F1C3D98B500AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests-Mac" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +589,7 @@
 				2CE5C9711C3D98B500AC9F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CE5C9881C3DB1D900AC9F68 /* Build configuration list for PBXNativeTarget "Portal-iOS" */ = {
 			isa = XCConfigurationList;
@@ -584,6 +598,7 @@
 				2CE5C98A1C3DB1D900AC9F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CE5C98B1C3DB1D900AC9F68 /* Build configuration list for PBXNativeTarget "PortalTests-iOS" */ = {
 			isa = XCConfigurationList;
@@ -592,6 +607,7 @@
 				2CE5C98D1C3DB1D900AC9F68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

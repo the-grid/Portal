@@ -4,4 +4,10 @@
    <FileRef
       location = "container:Portal.xcodeproj">
    </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Nimble/Nimble.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Carthage/Checkouts/Quick/Quick.xcodeproj">
+   </FileRef>
 </Workspace>
