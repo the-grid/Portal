@@ -17,14 +17,22 @@
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
 		2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3851C3DDFC300644053 /* Ogra.framework */; };
 		2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
+		2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA160831C3F342B007B7E54 /* UserSpec.swift */; };
+		2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA160831C3F342B007B7E54 /* UserSpec.swift */; };
 		2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
 		2CB618C31C3DE086002766B5 /* Ogra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3851C3DDFC300644053 /* Ogra.framework */; };
 		2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
+		2CB618C61C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
+		2CB618C71C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
 		2CE5C95C1C3D98B500AC9F68 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */; };
 		2CE5C9811C3DB1D900AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9771C3DB1D900AC9F68 /* Portal.framework */; };
+		2CFFC55B1C3F391A005B321C /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFC5591C3F391A005B321C /* NSURL.swift */; };
+		2CFFC55C1C3F391A005B321C /* NSURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFC5591C3F391A005B321C /* NSURL.swift */; };
+		2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFC55A1C3F391A005B321C /* NSUUID.swift */; };
+		2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFFC55A1C3F391A005B321C /* NSUUID.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +60,8 @@
 		2C7BC3861C3DDFC300644053 /* Result.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Result.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CA160831C3F342B007B7E54 /* UserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSpec.swift; path = Models/UserSpec.swift; sourceTree = "<group>"; };
+		2CB618C51C3DEA6E002766B5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		2CE5C9581C3D98B500AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C95B1C3D98B500AC9F68 /* Portal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
 		2CE5C95D1C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -59,6 +69,8 @@
 		2CE5C9691C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2CE5C9771C3DB1D900AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C9801C3DB1D900AC9F68 /* PortalTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PortalTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CFFC5591C3F391A005B321C /* NSURL.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSURL.swift; sourceTree = "<group>"; };
+		2CFFC55A1C3F391A005B321C /* NSUUID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUUID.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +121,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CA160881C3F36AB007B7E54 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CA160831C3F342B007B7E54 /* UserSpec.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		2CB618CB1C3F2D2B002766B5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CB618C51C3DEA6E002766B5 /* User.swift */,
+				2CFFC5581C3F391A005B321C /* Extensions */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
 		2CE5C94E1C3D98B500AC9F68 = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +163,7 @@
 			children = (
 				2CE5C95B1C3D98B500AC9F68 /* Portal.h */,
 				2CE5C95D1C3D98B500AC9F68 /* Info.plist */,
+				2CB618CB1C3F2D2B002766B5 /* Models */,
 				2C7BC3821C3DDFC300644053 /* Alamofire.framework */,
 				2C7BC3831C3DDFC300644053 /* Argo.framework */,
 				2C7BC3841C3DDFC300644053 /* Curry.framework */,
@@ -147,10 +177,21 @@
 			isa = PBXGroup;
 			children = (
 				2CE5C9691C3D98B500AC9F68 /* Info.plist */,
+				2CA160881C3F36AB007B7E54 /* Models */,
 				2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */,
 				2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */,
 			);
 			path = PortalTests;
+			sourceTree = "<group>";
+		};
+		2CFFC5581C3F391A005B321C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2CFFC5591C3F391A005B321C /* NSURL.swift */,
+				2CFFC55A1C3F391A005B321C /* NSUUID.swift */,
+			);
+			name = Extensions;
+			path = Models/Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -327,6 +368,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFFC55C1C3F391A005B321C /* NSURL.swift in Sources */,
+				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
+				2CB618C71C3DEA6E002766B5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +378,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +386,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFFC55B1C3F391A005B321C /* NSURL.swift in Sources */,
+				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
+				2CB618C61C3DEA6E002766B5 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -348,6 +396,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +506,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -470,6 +520,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.thegrid.Portal;
 				PRODUCT_NAME = Portal;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -477,6 +528,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -519,6 +571,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -532,6 +585,7 @@
 				PRODUCT_NAME = Portal;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -540,6 +594,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
