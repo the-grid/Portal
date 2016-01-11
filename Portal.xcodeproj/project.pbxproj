@@ -30,6 +30,10 @@
 		2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
 		2CB618C61C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
 		2CB618C71C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
+		2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395091C44471B0004D6B7 /* Result.swift */; };
+		2CD3950B1C44471B0004D6B7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395091C44471B0004D6B7 /* Result.swift */; };
+		2CD3950D1C444A7A0004D6B7 /* ResultProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */; };
+		2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */; };
 		2CE5C95C1C3D98B500AC9F68 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2CE5C9631C3D98B500AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9581C3D98B500AC9F68 /* Portal.framework */; };
 		2CE5C9811C3DB1D900AC9F68 /* Portal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE5C9771C3DB1D900AC9F68 /* Portal.framework */; };
@@ -68,6 +72,8 @@
 		2C9C18841C3F48070039DAB5 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Networking/Extensions/Request.swift; sourceTree = "<group>"; };
 		2CA160831C3F342B007B7E54 /* UserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSpec.swift; path = Models/UserSpec.swift; sourceTree = "<group>"; };
 		2CB618C51C3DEA6E002766B5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
+		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
 		2CE5C9581C3D98B500AC9F68 /* Portal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Portal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CE5C95B1C3D98B500AC9F68 /* Portal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Portal.h; sourceTree = "<group>"; };
 		2CE5C95D1C3D98B500AC9F68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -140,6 +146,8 @@
 			isa = PBXGroup;
 			children = (
 				2C9C18841C3F48070039DAB5 /* Request.swift */,
+				2CD395091C44471B0004D6B7 /* Result.swift */,
+				2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -395,6 +403,8 @@
 				2CFFC55C1C3F391A005B321C /* NSURL.swift in Sources */,
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
+				2CD3950B1C44471B0004D6B7 /* Result.swift in Sources */,
+				2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB618C71C3DEA6E002766B5 /* User.swift in Sources */,
 				2C9C187F1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
 			);
@@ -415,6 +425,8 @@
 				2CFFC55B1C3F391A005B321C /* NSURL.swift in Sources */,
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
+				2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */,
+				2CD3950D1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB618C61C3DEA6E002766B5 /* User.swift in Sources */,
 				2C9C187E1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
 			);
