@@ -19,3 +19,9 @@
 [submodule "Carthage/Checkouts/Curry"]
 	path = Carthage/Checkouts/Curry
 	url = https://github.com/thoughtbot/Curry.git
+[submodule "Carthage/Checkouts/Mockingjay"]
+	path = Carthage/Checkouts/Mockingjay
+	url = https://github.com/kylef/Mockingjay.git
+[submodule "Carthage/Checkouts/MockingjayMatchers"]
+	path = Carthage/Checkouts/MockingjayMatchers
+	url = https://github.com/the-grid/MockingjayMatchers.git
