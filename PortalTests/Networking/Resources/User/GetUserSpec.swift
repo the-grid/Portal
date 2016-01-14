@@ -10,8 +10,11 @@ class GetUserSpec: QuickSpec {
         describe("getting a user") {
             context("current user") {
                 it("should result in a User") {
+                    let configuration = NSURLSessionConfiguration.defaultSessionConfiguration()
+                    configuration.protocolClasses = [MockingjayProtocol.self] as [AnyClass] + configuration.protocolClasses!
+                    
                     let token = "token"
-                    let client = APIClient(token: token)
+                    let client = APIClient(token: token, configuration: configuration)
                     
                     let avatarURL = "https://s.gravatar.com/avatar/6a12a226806bb77aa45dac4133d76227"
                     let emailAddress = "bear@thegrid.io"
