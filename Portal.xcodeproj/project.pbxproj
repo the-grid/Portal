@@ -11,6 +11,10 @@
 		2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657861C4D864400044602 /* NSURLSpec.swift */; };
 		2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578A1C4D884300044602 /* NSUUIDSpec.swift */; };
 		2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578A1C4D884300044602 /* NSUUIDSpec.swift */; };
+		2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578D1C4D8C4E00044602 /* ColorSpec.swift */; };
+		2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578D1C4D8C4E00044602 /* ColorSpec.swift */; };
+		2C2657911C4D8C7400044602 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657901C4D8C7400044602 /* Color.swift */; };
+		2C2657921C4D8C7400044602 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657901C4D8C7400044602 /* Color.swift */; };
 		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
@@ -77,6 +81,8 @@
 /* Begin PBXFileReference section */
 		2C2657861C4D864400044602 /* NSURLSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLSpec.swift; path = Models/Extensions/NSURLSpec.swift; sourceTree = "<group>"; };
 		2C26578A1C4D884300044602 /* NSUUIDSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSUUIDSpec.swift; path = Models/Extensions/NSUUIDSpec.swift; sourceTree = "<group>"; };
+		2C26578D1C4D8C4E00044602 /* ColorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorSpec.swift; path = Models/Extensions/ColorSpec.swift; sourceTree = "<group>"; };
+		2C2657901C4D8C7400044602 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -161,6 +167,7 @@
 		2C2657891C4D865C00044602 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2C26578D1C4D8C4E00044602 /* ColorSpec.swift */,
 				2C2657861C4D864400044602 /* NSURLSpec.swift */,
 				2C26578A1C4D884300044602 /* NSUUIDSpec.swift */,
 			);
@@ -300,6 +307,7 @@
 		2CFFC5581C3F391A005B321C /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				2C2657901C4D8C7400044602 /* Color.swift */,
 				2CFFC5591C3F391A005B321C /* NSURL.swift */,
 				2CFFC55A1C3F391A005B321C /* NSUUID.swift */,
 			);
@@ -485,6 +493,7 @@
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
 				2CD395081C443E950004D6B7 /* GetUser.swift in Sources */,
+				2C2657921C4D8C7400044602 /* Color.swift in Sources */,
 				2CD3950B1C44471B0004D6B7 /* Result.swift in Sources */,
 				2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB618C71C3DEA6E002766B5 /* User.swift in Sources */,
@@ -499,6 +508,7 @@
 			files = (
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 			);
@@ -512,6 +522,7 @@
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
 				2CD395071C443E950004D6B7 /* GetUser.swift in Sources */,
+				2C2657911C4D8C7400044602 /* Color.swift in Sources */,
 				2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */,
 				2CD3950D1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB618C61C3DEA6E002766B5 /* User.swift in Sources */,
@@ -526,6 +537,7 @@
 			files = (
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 			);
