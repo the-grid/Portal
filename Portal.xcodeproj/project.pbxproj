@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657861C4D864400044602 /* NSURLSpec.swift */; };
 		2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657861C4D864400044602 /* NSURLSpec.swift */; };
+		2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578A1C4D884300044602 /* NSUUIDSpec.swift */; };
+		2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26578A1C4D884300044602 /* NSUUIDSpec.swift */; };
 		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
@@ -74,6 +76,7 @@
 
 /* Begin PBXFileReference section */
 		2C2657861C4D864400044602 /* NSURLSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSURLSpec.swift; path = Models/Extensions/NSURLSpec.swift; sourceTree = "<group>"; };
+		2C26578A1C4D884300044602 /* NSUUIDSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSUUIDSpec.swift; path = Models/Extensions/NSUUIDSpec.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -159,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				2C2657861C4D864400044602 /* NSURLSpec.swift */,
+				2C26578A1C4D884300044602 /* NSUUIDSpec.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -495,6 +499,7 @@
 			files = (
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -521,6 +526,7 @@
 			files = (
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
