@@ -25,6 +25,8 @@
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
 		2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3851C3DDFC300644053 /* Ogra.framework */; };
 		2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
+		2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */; };
+		2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */; };
 		2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */; };
 		2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */; };
 		2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */; };
@@ -39,6 +41,8 @@
 		2C9C18861C3F48070039DAB5 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C18841C3F48070039DAB5 /* Request.swift */; };
 		2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA160831C3F342B007B7E54 /* UserSpec.swift */; };
 		2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA160831C3F342B007B7E54 /* UserSpec.swift */; };
+		2CB01E991C499DC400062FE3 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB01E981C499DC400062FE3 /* Site.swift */; };
+		2CB01E9A1C499DC400062FE3 /* Site.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB01E981C499DC400062FE3 /* Site.swift */; };
 		2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -105,6 +109,8 @@
 		2C9C187D1C3F3FE70039DAB5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = APIClient.swift; path = Networking/APIClient.swift; sourceTree = "<group>"; };
 		2C9C18841C3F48070039DAB5 /* Request.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Networking/Extensions/Request.swift; sourceTree = "<group>"; };
 		2CA160831C3F342B007B7E54 /* UserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserSpec.swift; path = Models/UserSpec.swift; sourceTree = "<group>"; };
+		2CB01E981C499DC400062FE3 /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Site.swift; path = Models/Site.swift; sourceTree = "<group>"; };
+		2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteSpec.swift; path = Models/SiteSpec.swift; sourceTree = "<group>"; };
 		2CB618C51C3DEA6E002766B5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		2CD395061C443E950004D6B7 /* GetUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
@@ -212,6 +218,7 @@
 			children = (
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
+				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
 				2CA160831C3F342B007B7E54 /* UserSpec.swift */,
 				2C2657891C4D865C00044602 /* Extensions */,
 			);
@@ -223,6 +230,7 @@
 			children = (
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
 				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
+				2CB01E981C499DC400062FE3 /* Site.swift */,
 				2CB618C51C3DEA6E002766B5 /* User.swift */,
 				2CFFC5581C3F391A005B321C /* Extensions */,
 			);
@@ -513,6 +521,7 @@
 				2CD3950B1C44471B0004D6B7 /* Result.swift in Sources */,
 				2C8DDD9D1C49C37300ABC36B /* ColorConfig.swift in Sources */,
 				2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
+				2CB01E9A1C499DC400062FE3 /* Site.swift in Sources */,
 				2CB618C71C3DEA6E002766B5 /* User.swift in Sources */,
 				2CDDD65F1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */,
@@ -529,6 +538,7 @@
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDDA01C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
 				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
+				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 			);
@@ -546,6 +556,7 @@
 				2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */,
 				2C8DDD9C1C49C37300ABC36B /* ColorConfig.swift in Sources */,
 				2CD3950D1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
+				2CB01E991C499DC400062FE3 /* Site.swift in Sources */,
 				2CB618C61C3DEA6E002766B5 /* User.swift in Sources */,
 				2CDDD65E1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */,
@@ -562,6 +573,7 @@
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDD9F1C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
 				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
+				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 			);
