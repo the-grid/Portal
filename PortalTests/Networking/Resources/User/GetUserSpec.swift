@@ -40,6 +40,9 @@ class GetUserSpec: QuickSpec {
                     sitesQuota: sitesQuota
                 )
                 
+                let error = NSError(domain: "io.thegrid.PortalTests", code: 0, userInfo: [ NSLocalizedDescriptionKey: "Unexpected request." ])
+                self.stub(everything, builder: failure(error))
+                
                 let matcher = api(.GET, "https://api.thegrid.io/user", token: token)
                 let builder = json(responseBody)
                 self.stub(matcher, builder: builder)
