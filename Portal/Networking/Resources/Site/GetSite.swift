@@ -14,6 +14,6 @@ extension APIClient {
             .request(.GET, url(id), token: token)
             .responseDecodable { (response: Response<Site, NSError>) in
                 completionHandler(response.result.proxy.value)
-        }
+            }
     }
 }
