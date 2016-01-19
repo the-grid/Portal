@@ -84,6 +84,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "2C2657B41C4EF69400044602"
+               BuildableName = "Slugify.framework"
+               BlueprintName = "Slugify-Mac"
+               ReferencedContainer = "container:Carthage/Checkouts/Slugify/Slugify.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "2CE5C9571C3D98B500AC9F68"
                BuildableName = "Portal.framework"
                BlueprintName = "Portal-Mac"

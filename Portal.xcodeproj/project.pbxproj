@@ -23,6 +23,8 @@
 		2C26579D1C4DABE000044602 /* GetSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579B1C4DABE000044602 /* GetSite.swift */; };
 		2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
 		2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
+		2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
+		2C2657F71C4F036300044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
 		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E11C3DBDAC0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
 		2C3E43E21C3DBDB40050A209 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BB1C3DB8AD00AAE05A /* Quick.framework */; };
@@ -107,6 +109,7 @@
 		2C2657971C4DA6A300044602 /* GetSitesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSitesSpec.swift; path = Networking/Resources/Site/GetSitesSpec.swift; sourceTree = "<group>"; };
 		2C26579B1C4DABE000044602 /* GetSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSite.swift; path = Networking/Resources/Site/GetSite.swift; sourceTree = "<group>"; };
 		2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSiteSpec.swift; path = Networking/Resources/Site/GetSiteSpec.swift; sourceTree = "<group>"; };
+		2C2657F51C4F034E00044602 /* Slugify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slugify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,6 +155,7 @@
 				2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */,
 				2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */,
 				2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */,
+				2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +177,7 @@
 			files = (
 				2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */,
 				2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */,
+				2C2657F71C4F036300044602 /* Slugify.framework in Frameworks */,
 				2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */,
 				2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */,
 				2CB618C31C3DE086002766B5 /* Ogra.framework in Frameworks */,
@@ -342,6 +347,7 @@
 				2C7BC3841C3DDFC300644053 /* Curry.framework */,
 				2C7BC3851C3DDFC300644053 /* Ogra.framework */,
 				2C7BC3861C3DDFC300644053 /* Result.framework */,
+				2C2657F51C4F034E00044602 /* Slugify.framework */,
 			);
 			path = Portal;
 			sourceTree = "<group>";
