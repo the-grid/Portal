@@ -5,13 +5,14 @@ import Ogra
 
 /// A site.
 public struct Site {
-    public let config: SiteConfig
-    public let domain: String?
-    public let id: NSUUID
-    public let name: String
-    public let path: String?
+    public var config: SiteConfig
+    public var domain: String?
+    public var favlogo: NSURL?
+    public var id: NSUUID
+    public var name: String
+    public var path: String?
     public let owner: NSUUID
-    public let repo: String
+    public var repo: String
     
     public init(
         config: SiteConfig,

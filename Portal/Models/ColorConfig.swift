@@ -5,10 +5,10 @@ import Ogra
 
 /// A color configuration.
 public struct ColorConfig {
-    public let brandColors: [Color]
-    public let brandStrength: Float
-    public let lightness: Float
-    public let saturation: Float
+    public var brandColors: [Color]
+    public var brandStrength: Float
+    public var lightness: Float
+    public var saturation: Float
     
     public init(
         brandColors: [Color],

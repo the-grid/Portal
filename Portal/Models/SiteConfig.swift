@@ -5,11 +5,11 @@ import Ogra
 
 /// A site configuration.
 public struct SiteConfig {
-    public let color: ColorConfig
-    public let favicon: NSURL?
-    public let layout: Float
-    public let logo: NSURL?
-    public let typography: Float
+    public var color: ColorConfig
+    public var favicon: NSURL?
+    public var layout: Float
+    public var logo: NSURL?
+    public var typography: Float
     
     public init(
         color: ColorConfig,
