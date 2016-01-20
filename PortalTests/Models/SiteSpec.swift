@@ -31,7 +31,7 @@ class SiteSpec: QuickSpec {
                     "brandStrength": .Number(brandStrength),
                     "lightness": .Number(lightness),
                     "saturation": .Number(saturation)
-                    ]),
+                ]),
                 "favicon": .String(favicon),
                 "layout_spectrum": .Number(layout),
                 "logo": .String(logo),
