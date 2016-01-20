@@ -52,6 +52,17 @@ extension Request {
     }
 }
 
+extension Request {
+    func responseEmpty(completionHandler: Response<Void, NSError> -> Void) -> Self {
+        let responseSerializer = ResponseSerializer<Void, NSError> { request, response, data, error in
+            guard error == .None else { return .Failure(error!) }
+            return .Success()
+        }
+        
+        return response(responseSerializer: responseSerializer, completionHandler: completionHandler)
+    }
+}
+
 private func serializeResponse(request: NSURLRequest?, _ response: NSHTTPURLResponse?, _ data: NSData?, _ error: NSError?) -> Result<AnyObject, NSError> {
     return Request.JSONResponseSerializer().serializeResponse(request, response, data, error)
 }
