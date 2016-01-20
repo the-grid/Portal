@@ -23,6 +23,10 @@
 		2C26579D1C4DABE000044602 /* GetSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579B1C4DABE000044602 /* GetSite.swift */; };
 		2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
 		2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
+		2C2657A21C4DC5D500044602 /* CreateSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A11C4DC5D500044602 /* CreateSite.swift */; };
+		2C2657A31C4DC5D500044602 /* CreateSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A11C4DC5D500044602 /* CreateSite.swift */; };
+		2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */; };
+		2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */; };
 		2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
 		2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
 		2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
@@ -111,6 +115,8 @@
 		2C2657971C4DA6A300044602 /* GetSitesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSitesSpec.swift; path = Networking/Resources/Site/GetSitesSpec.swift; sourceTree = "<group>"; };
 		2C26579B1C4DABE000044602 /* GetSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSite.swift; path = Networking/Resources/Site/GetSite.swift; sourceTree = "<group>"; };
 		2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSiteSpec.swift; path = Networking/Resources/Site/GetSiteSpec.swift; sourceTree = "<group>"; };
+		2C2657A11C4DC5D500044602 /* CreateSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSite.swift; path = Networking/Resources/Site/CreateSite.swift; sourceTree = "<group>"; };
+		2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSiteSpec.swift; path = Networking/Resources/Site/CreateSiteSpec.swift; sourceTree = "<group>"; };
 		2C2657A71C4E110D00044602 /* NimbleMatchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NimbleMatchers.swift; path = Helpers/NimbleMatchers.swift; sourceTree = "<group>"; };
 		2C2657F51C4F034E00044602 /* Slugify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slugify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -215,6 +221,7 @@
 		2C2657961C4DA64000044602 /* Site */ = {
 			isa = PBXGroup;
 			children = (
+				2C2657A11C4DC5D500044602 /* CreateSite.swift */,
 				2C2657931C4DA63B00044602 /* GetSites.swift */,
 				2C26579B1C4DABE000044602 /* GetSite.swift */,
 			);
@@ -224,6 +231,7 @@
 		2C26579A1C4DA6A800044602 /* Site */ = {
 			isa = PBXGroup;
 			children = (
+				2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */,
 				2C2657971C4DA6A300044602 /* GetSitesSpec.swift */,
 				2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */,
 			);
@@ -567,6 +575,7 @@
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579D1C4DABE000044602 /* GetSite.swift in Sources */,
+				2C2657A31C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2CD395081C443E950004D6B7 /* GetUser.swift in Sources */,
 				2C2657921C4D8C7400044602 /* Color.swift in Sources */,
 				2CD3950B1C44471B0004D6B7 /* Result.swift in Sources */,
@@ -587,6 +596,7 @@
 			files = (
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */,
+				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
@@ -607,6 +617,7 @@
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579C1C4DABE000044602 /* GetSite.swift in Sources */,
+				2C2657A21C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2CD395071C443E950004D6B7 /* GetUser.swift in Sources */,
 				2C2657911C4D8C7400044602 /* Color.swift in Sources */,
 				2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */,
@@ -627,6 +638,7 @@
 			files = (
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */,
+				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
