@@ -5,14 +5,11 @@ import Slugify
 private let url = baseUrl + "/site"
 
 extension APIClient {
-    /// Create a site with the provided `name`.
+    /// Create the provided `site`.
     ///
-    /// - parameter name: The name of the site.
-    public func createSite(name: String, completionHandler: Result<Void, NSError> -> Void) {
-        let parameters = [
-            "name": name,
-            "repo": "the-domains/\(name.slugify())"
-        ]
+    /// - parameter site: The site to be created.
+    public func createSite(site: Site, completionHandler: Result<Void, NSError> -> Void) {
+        let parameters = site.encode().JSONObject() as? [String: AnyObject]
         
         // Validate the response because invalid requests may also produce an
         // empty response and produce a false positive.
