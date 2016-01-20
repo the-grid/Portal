@@ -23,6 +23,8 @@
 		2C26579D1C4DABE000044602 /* GetSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579B1C4DABE000044602 /* GetSite.swift */; };
 		2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
 		2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */; };
+		2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
+		2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
 		2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
 		2C2657F71C4F036300044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
 		2C3E43E01C3DBDAB0050A209 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C8FC0BA1C3DB8AD00AAE05A /* Nimble.framework */; };
@@ -109,6 +111,7 @@
 		2C2657971C4DA6A300044602 /* GetSitesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSitesSpec.swift; path = Networking/Resources/Site/GetSitesSpec.swift; sourceTree = "<group>"; };
 		2C26579B1C4DABE000044602 /* GetSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSite.swift; path = Networking/Resources/Site/GetSite.swift; sourceTree = "<group>"; };
 		2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetSiteSpec.swift; path = Networking/Resources/Site/GetSiteSpec.swift; sourceTree = "<group>"; };
+		2C2657A71C4E110D00044602 /* NimbleMatchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NimbleMatchers.swift; path = Helpers/NimbleMatchers.swift; sourceTree = "<group>"; };
 		2C2657F51C4F034E00044602 /* Slugify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slugify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -225,6 +228,14 @@
 				2C26579E1C4DAC8800044602 /* GetSiteSpec.swift */,
 			);
 			name = Site;
+			sourceTree = "<group>";
+		};
+		2C2657AA1C4E112400044602 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2C2657A71C4E110D00044602 /* NimbleMatchers.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 		2C9C18831C3F47C70039DAB5 /* Networking */ = {
@@ -356,6 +367,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE5C9691C3D98B500AC9F68 /* Info.plist */,
+				2C2657AA1C4E112400044602 /* Helpers */,
 				2CA160881C3F36AB007B7E54 /* Models */,
 				2CD395121C4455070004D6B7 /* Networking */,
 				2CDDD6571C46DA250041BF06 /* Mockingjay.framework */,
@@ -574,6 +586,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
+				2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
@@ -613,6 +626,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
+				2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
