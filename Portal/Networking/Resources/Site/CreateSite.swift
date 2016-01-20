@@ -1,6 +1,5 @@
 import struct Alamofire.Response
 import Result
-import Slugify
 
 private let url = baseUrl + "/site"
 

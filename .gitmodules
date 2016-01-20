@@ -25,6 +25,3 @@
 [submodule "Carthage/Checkouts/MockingjayMatchers"]
 	path = Carthage/Checkouts/MockingjayMatchers
 	url = https://github.com/the-grid/MockingjayMatchers.git
-[submodule "Carthage/Checkouts/Slugify"]
-	path = Carthage/Checkouts/Slugify
-	url = https://github.com/paulyoung/Slugify.git

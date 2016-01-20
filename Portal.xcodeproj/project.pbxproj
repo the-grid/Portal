@@ -29,8 +29,6 @@
 		2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */; };
 		2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
 		2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657A71C4E110D00044602 /* NimbleMatchers.swift */; };
-		2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
-		2C2657F71C4F036300044602 /* Slugify.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2657F51C4F034E00044602 /* Slugify.framework */; };
 		2C2657F91C4F2A9200044602 /* DeleteSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657F81C4F2A9200044602 /* DeleteSite.swift */; };
 		2C2657FA1C4F2A9200044602 /* DeleteSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657F81C4F2A9200044602 /* DeleteSite.swift */; };
 		2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C2657FB1C4F2B8A00044602 /* DeleteSiteSpec.swift */; };
@@ -126,7 +124,6 @@
 		2C2657A11C4DC5D500044602 /* CreateSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSite.swift; path = Networking/Resources/Site/CreateSite.swift; sourceTree = "<group>"; };
 		2C2657A41C4DC6D200044602 /* CreateSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateSiteSpec.swift; path = Networking/Resources/Site/CreateSiteSpec.swift; sourceTree = "<group>"; };
 		2C2657A71C4E110D00044602 /* NimbleMatchers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NimbleMatchers.swift; path = Helpers/NimbleMatchers.swift; sourceTree = "<group>"; };
-		2C2657F51C4F034E00044602 /* Slugify.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Slugify.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C2657F81C4F2A9200044602 /* DeleteSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteSite.swift; path = Networking/Resources/Site/DeleteSite.swift; sourceTree = "<group>"; };
 		2C2657FB1C4F2B8A00044602 /* DeleteSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteSiteSpec.swift; path = Networking/Resources/Site/DeleteSiteSpec.swift; sourceTree = "<group>"; };
 		2C2657FE1C4F518800044602 /* UpdateSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateSiteSpec.swift; path = Networking/Resources/Site/UpdateSiteSpec.swift; sourceTree = "<group>"; };
@@ -176,7 +173,6 @@
 				2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */,
 				2C7BC38A1C3DDFC300644053 /* Ogra.framework in Frameworks */,
 				2C7BC38B1C3DDFC300644053 /* Result.framework in Frameworks */,
-				2C2657F61C4F034E00044602 /* Slugify.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,7 +194,6 @@
 			files = (
 				2CB618C01C3DE07E002766B5 /* Alamofire.framework in Frameworks */,
 				2CB618C11C3DE081002766B5 /* Argo.framework in Frameworks */,
-				2C2657F71C4F036300044602 /* Slugify.framework in Frameworks */,
 				2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */,
 				2CB618C21C3DE083002766B5 /* Curry.framework in Frameworks */,
 				2CB618C31C3DE086002766B5 /* Ogra.framework in Frameworks */,
@@ -382,7 +377,6 @@
 				2C7BC3841C3DDFC300644053 /* Curry.framework */,
 				2C7BC3851C3DDFC300644053 /* Ogra.framework */,
 				2C7BC3861C3DDFC300644053 /* Result.framework */,
-				2C2657F51C4F034E00044602 /* Slugify.framework */,
 			);
 			path = Portal;
 			sourceTree = "<group>";
