@@ -5,7 +5,7 @@ extension Manager {
         method: Alamofire.Method,
         _ URLString: URLStringConvertible,
         parameters: [String: AnyObject]? = nil,
-        encoding: ParameterEncoding = .URL,
+        encoding: ParameterEncoding = .JSON,
         headers: [String: String]? = nil,
         token: String
     ) -> Request {
