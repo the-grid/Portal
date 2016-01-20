@@ -84,12 +84,12 @@ class GetSiteSpec: QuickSpec {
                     repo: repo
                 )
                 
-                let error = NSError(domain: "io.thegrid.PortalTests", code: 0, userInfo: [ NSLocalizedDescriptionKey: "Unexpected request." ])
-                self.stub(everything, builder: failure(error))
-                
                 let matcher = api(.GET, "https://api.thegrid.io/site/\(id)", token: token)
                 let builder = json(responseBody)
                 self.stub(matcher, builder: builder)
+                
+                let error = NSError(domain: "io.thegrid.PortalTests", code: 0, userInfo: [ NSLocalizedDescriptionKey: "Unexpected request." ])
+                self.stub(everything, builder: failure(error))
                 
                 var responseValue: Site?
                 var responseError: NSError?
