@@ -7,7 +7,6 @@ import Ogra
 public struct Site {
     public let config: SiteConfig
     public let domain: String?
-    public let favLogo: NSURL?
     public let id: NSUUID
     public let name: String
     public let path: String?
@@ -17,7 +16,7 @@ public struct Site {
     public init(
         config: SiteConfig,
         domain: String?,
-        favLogo: NSURL?,
+        favlogo: NSURL?,
         id: NSUUID,
         name: String,
         path: String?,
@@ -26,7 +25,7 @@ public struct Site {
     ) {
         self.config = config
         self.domain = domain
-        self.favLogo = favLogo
+        self.favlogo = favlogo
         self.id = id
         self.name = name
         self.path = path
@@ -61,7 +60,7 @@ extension Site: Encodable {
         return .Object([
             "config": config.encode(),
             "domain": domain.encode(),
-            "favlogo": favLogo.encode(),
+            "favlogo": favlogo.encode(),
             "id": id.encode(),
             "name": name.encode(),
             "path": path.encode(),
@@ -79,7 +78,7 @@ extension Site: Equatable {}
 public func == (lhs: Site, rhs: Site) -> Bool {
     return lhs.config == rhs.config
         && lhs.domain == rhs.domain
-        && lhs.favLogo == rhs.favLogo
+        && lhs.favlogo == rhs.favlogo
         && lhs.id == rhs.id
         && lhs.name == rhs.name
         && lhs.path == rhs.path

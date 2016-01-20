@@ -67,7 +67,7 @@ class SiteSpec: QuickSpec {
         let site = Site(
             config: siteConfig,
             domain: domain,
-            favLogo: NSURL(string: favlogo),
+            favlogo: NSURL(string: favlogo),
             id: NSUUID(UUIDString: id)!,
             name: name,
             path: path,
