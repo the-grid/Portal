@@ -44,12 +44,12 @@ extension Site: Decodable {
             <^> json <|? "config"
             <*> json <|? "domain"
             <*> json <|? "favlogo"
-            <*> json <|  "id"
+            <*> json <| "id"
         return f
-            <*> json <|  "name"
+            <*> json <| "name"
             <*> json <|? "path"
-            <*> json <|  "owner"
-            <*> json <|  "repo"
+            <*> json <| "owner"
+            <*> json <| "repo"
     }
 }
 

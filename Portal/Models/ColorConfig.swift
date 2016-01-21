@@ -30,9 +30,9 @@ extension ColorConfig: Decodable {
     public static func decode(json: JSON) -> Decoded<ColorConfig> {
         return curry(self.init)
             <^> json <|| "brandColors"
-            <*> json <|  "brandStrength"
-            <*> json <|  "lightness"
-            <*> json <|  "saturation"
+            <*> json <| "brandStrength"
+            <*> json <| "lightness"
+            <*> json <| "saturation"
     }
 }
 

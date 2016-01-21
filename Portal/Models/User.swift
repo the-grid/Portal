@@ -36,11 +36,11 @@ extension User: Decodable {
     public static func decode(json: JSON) -> Decoded<User> {
         return curry(self.init)
             <^> json <|? "avatar"
-            <*> json <|  "email"
-            <*> json <|  "founder"
-            <*> json <|  "id"
-            <*> json <|  "name"
-            <*> json <|  "quotaSites"
+            <*> json <| "email"
+            <*> json <| "founder"
+            <*> json <| "id"
+            <*> json <| "name"
+            <*> json <| "quotaSites"
     }
 }
 
