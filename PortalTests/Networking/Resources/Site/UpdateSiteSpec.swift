@@ -63,19 +63,19 @@ class UpdateSiteSpec: QuickSpec {
                 let path = "/grid-beard"
                 let repo = "the-domains/grid-beard"
                 
-                site.config.color.brandColors = [
+                site.config?.color?.brandColors = [
                     Color(red: 64/255, green: 64/255, blue: 64/255, alpha: 1),
                     Color(red: 192/255, green: 192/255, blue: 192/255, alpha: 1)
                 ]
                 
-                site.config.color.brandStrength = brandStrength
-                site.config.color.lightness = lightness
-                site.config.color.saturation = saturation
+                site.config?.color?.brandStrength = brandStrength
+                site.config?.color?.lightness = lightness
+                site.config?.color?.saturation = saturation
                 
-                site.config.favicon = NSURL(string: favicon)
-                site.config.layout = layout
-                site.config.logo = NSURL(string: logo)
-                site.config.typography = typography
+                site.config?.favicon = NSURL(string: favicon)
+                site.config?.layout = layout
+                site.config?.logo = NSURL(string: logo)
+                site.config?.typography = typography
                 
                 site.domain = domain
                 site.favlogo = NSURL(string: favlogo)

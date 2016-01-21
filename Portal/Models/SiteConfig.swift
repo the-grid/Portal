@@ -5,18 +5,18 @@ import Ogra
 
 /// A site configuration.
 public struct SiteConfig {
-    public var color: ColorConfig
+    public var color: ColorConfig?
     public var favicon: NSURL?
-    public var layout: Float
+    public var layout: Float?
     public var logo: NSURL?
-    public var typography: Float
+    public var typography: Float?
     
     public init(
-        color: ColorConfig,
+        color: ColorConfig? = .None,
         favicon: NSURL? = .None,
-        layout: Float,
+        layout: Float? = .None,
         logo: NSURL? = .None,
-        typography: Float
+        typography: Float? = .None
     ) {
         self.color = color
         self.favicon = favicon
@@ -32,11 +32,11 @@ public struct SiteConfig {
 extension SiteConfig: Decodable {
     public static func decode(json: JSON) -> Decoded<SiteConfig> {
         return curry(self.init)
-            <^> json <|  "color"
+            <^> json <|? "color"
             <*> json <|? "favicon"
-            <*> json <|  "layout_spectrum"
+            <*> json <|? "layout_spectrum"
             <*> json <|? "logo"
-            <*> json <|  "typography_spectrum"
+            <*> json <|? "typography_spectrum"
     }
 }
 

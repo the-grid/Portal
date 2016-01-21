@@ -5,7 +5,7 @@ import Ogra
 
 /// A site.
 public struct Site {
-    public var config: SiteConfig
+    public var config: SiteConfig?
     public var domain: String?
     public var favlogo: NSURL?
     public var id: NSUUID
@@ -15,7 +15,7 @@ public struct Site {
     public var repo: String
     
     public init(
-        config: SiteConfig,
+        config: SiteConfig? = .None,
         domain: String? = .None,
         favlogo: NSURL? = .None,
         id: NSUUID,
@@ -41,7 +41,7 @@ public struct Site {
 extension Site: Decodable {
     public static func decode(json: JSON) -> Decoded<Site> {
         let f = curry(self.init)
-            <^> json <|  "config"
+            <^> json <|? "config"
             <*> json <|? "domain"
             <*> json <|? "favlogo"
             <*> json <|  "id"
