@@ -13,9 +13,9 @@ public struct SiteConfig {
     
     public init(
         color: ColorConfig,
-        favicon: NSURL?,
+        favicon: NSURL? = .None,
         layout: Float,
-        logo: NSURL?,
+        logo: NSURL? = .None,
         typography: Float
     ) {
         self.color = color

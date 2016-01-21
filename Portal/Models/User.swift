@@ -13,7 +13,7 @@ public struct User {
     public let sitesQuota: Int
     
     public init(
-        avatarURL: NSURL?,
+        avatarURL: NSURL? = .None,
         emailAddress: String,
         founderNumber: Int,
         id: NSUUID,

@@ -16,11 +16,11 @@ public struct Site {
     
     public init(
         config: SiteConfig,
-        domain: String?,
-        favlogo: NSURL?,
+        domain: String? = .None,
+        favlogo: NSURL? = .None,
         id: NSUUID,
         name: String,
-        path: String?,
+        path: String? = .None,
         owner: NSUUID,
         repo: String
     ) {
