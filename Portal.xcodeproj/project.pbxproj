@@ -80,6 +80,10 @@
 		2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */; };
 		2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */; };
 		2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */; };
+		2CD591561C517F8E00002C3B /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591551C517F8E00002C3B /* BlockType.swift */; };
+		2CD591571C517F8E00002C3B /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591551C517F8E00002C3B /* BlockType.swift */; };
+		2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */; };
+		2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */; };
 		2CDDD6591C46DA250041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
 		2CDDD65A1C46DA250041BF06 /* MockingjayMatchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */; };
 		2CDDD65B1C46DA4B0041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
@@ -149,6 +153,8 @@
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
 		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
 		2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetUserSpec.swift; path = Networking/Resources/User/GetUserSpec.swift; sourceTree = "<group>"; };
+		2CD591551C517F8E00002C3B /* BlockType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockType.swift; path = Models/BlockType.swift; sourceTree = "<group>"; };
+		2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTypeSpec.swift; path = Models/BlockTypeSpec.swift; sourceTree = "<group>"; };
 		2CDDD6571C46DA250041BF06 /* Mockingjay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MockingjayMatchers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD65D1C46EC390041BF06 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Networking/Extensions/Manager.swift; sourceTree = "<group>"; };
@@ -281,6 +287,7 @@
 		2CA160881C3F36AB007B7E54 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
@@ -293,6 +300,7 @@
 		2CB618CB1C3F2D2B002766B5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
 				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB01E981C499DC400062FE3 /* Site.swift */,
@@ -582,6 +590,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFFC55C1C3F391A005B321C /* NSURL.swift in Sources */,
+				2CD591571C517F8E00002C3B /* BlockType.swift in Sources */,
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579D1C4DABE000044602 /* GetSite.swift in Sources */,
@@ -618,6 +627,7 @@
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 				2C2657FD1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
+				2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2C2658001C4F518800044602 /* UpdateSiteSpec.swift in Sources */,
 				2C2657991C4DA6A300044602 /* GetSitesSpec.swift in Sources */,
 			);
@@ -628,6 +638,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFFC55B1C3F391A005B321C /* NSURL.swift in Sources */,
+				2CD591561C517F8E00002C3B /* BlockType.swift in Sources */,
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579C1C4DABE000044602 /* GetSite.swift in Sources */,
@@ -664,6 +675,7 @@
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 				2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
+				2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2C2657FF1C4F518800044602 /* UpdateSiteSpec.swift in Sources */,
 				2C2657981C4DA6A300044602 /* GetSitesSpec.swift in Sources */,
 			);
