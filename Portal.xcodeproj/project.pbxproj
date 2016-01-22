@@ -88,6 +88,10 @@
 		2CD5915D1C5191B700002C3B /* NSDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5915B1C5191B700002C3B /* NSDate.swift */; };
 		2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5915E1C519F4B00002C3B /* NSDateSpec.swift */; };
 		2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5915E1C519F4B00002C3B /* NSDateSpec.swift */; };
+		2CD591621C51B4BA00002C3B /* SchemaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591611C51B4BA00002C3B /* SchemaType.swift */; };
+		2CD591631C51B4BA00002C3B /* SchemaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591611C51B4BA00002C3B /* SchemaType.swift */; };
+		2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */; };
+		2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */; };
 		2CDDD6591C46DA250041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
 		2CDDD65A1C46DA250041BF06 /* MockingjayMatchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */; };
 		2CDDD65B1C46DA4B0041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
@@ -161,6 +165,8 @@
 		2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTypeSpec.swift; path = Models/BlockTypeSpec.swift; sourceTree = "<group>"; };
 		2CD5915B1C5191B700002C3B /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
 		2CD5915E1C519F4B00002C3B /* NSDateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateSpec.swift; path = Models/Extensions/NSDateSpec.swift; sourceTree = "<group>"; };
+		2CD591611C51B4BA00002C3B /* SchemaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaType.swift; path = Models/SchemaType.swift; sourceTree = "<group>"; };
+		2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaTypeSpec.swift; path = Models/SchemaTypeSpec.swift; sourceTree = "<group>"; };
 		2CDDD6571C46DA250041BF06 /* Mockingjay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MockingjayMatchers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD65D1C46EC390041BF06 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Networking/Extensions/Manager.swift; sourceTree = "<group>"; };
@@ -296,6 +302,7 @@
 			children = (
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
+				2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */,
 				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
 				2CA160831C3F342B007B7E54 /* UserSpec.swift */,
@@ -309,6 +316,7 @@
 			children = (
 				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
+				2CD591611C51B4BA00002C3B /* SchemaType.swift */,
 				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB01E981C499DC400062FE3 /* Site.swift */,
 				2CB618C51C3DEA6E002766B5 /* User.swift */,
@@ -617,6 +625,7 @@
 				2C2657951C4DA63B00044602 /* GetSites.swift in Sources */,
 				2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187F1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
+				2CD591631C51B4BA00002C3B /* SchemaType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -628,6 +637,7 @@
 				2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
@@ -667,6 +677,7 @@
 				2C2657941C4DA63B00044602 /* GetSites.swift in Sources */,
 				2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187E1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
+				2CD591621C51B4BA00002C3B /* SchemaType.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -678,6 +689,7 @@
 				2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
+				2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
