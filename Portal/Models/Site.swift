@@ -45,9 +45,9 @@ extension Site: Decodable {
             <*> json <|? "domain"
             <*> json <|? "favlogo"
             <*> json <| "id"
-        return f
             <*> json <| "name"
             <*> json <|? "path"
+        return f
             <*> json <| "owner"
             <*> json <| "repo"
     }
