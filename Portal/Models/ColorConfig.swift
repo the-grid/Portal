@@ -42,7 +42,7 @@ extension ColorConfig: Decodable {
 extension ColorConfig: Encodable {
     public func encode() -> JSON {
         return .Object([
-            "brandColors": brandColors.encode(),
+            "brandColors": brandColors.map(toHex).encode(),
             "brandStrength": brandStrength.encode(),
             "lightness": lightness.encode(),
             "saturation": saturation.encode()
