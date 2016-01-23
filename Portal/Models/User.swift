@@ -5,7 +5,7 @@ import Ogra
 
 /// A user.
 public struct User {
-    public let avatarURL: NSURL?
+    public let avatarUrl: NSURL?
     public let emailAddress: String
     public let founderNumber: Int
     public let id: NSUUID
@@ -13,14 +13,14 @@ public struct User {
     public let sitesQuota: Int
     
     public init(
-        avatarURL: NSURL? = .None,
+        avatarUrl: NSURL? = .None,
         emailAddress: String,
         founderNumber: Int,
         id: NSUUID,
         name: String,
         sitesQuota: Int
     ) {
-        self.avatarURL = avatarURL
+        self.avatarUrl = avatarUrl
         self.emailAddress = emailAddress
         self.founderNumber = founderNumber
         self.id = id
@@ -50,7 +50,7 @@ extension User: Decodable {
 extension User: Encodable {
     public func encode() -> JSON {
         return .Object([
-            "avatar": avatarURL.encode(),
+            "avatar": avatarUrl.encode(),
             "email": emailAddress.encode(),
             "founder": founderNumber.encode(),
             "id": id.encode(),
@@ -66,7 +66,7 @@ extension User: Encodable {
 extension User: Equatable {}
 
 public func == (lhs: User, rhs: User) -> Bool {
-    return lhs.avatarURL?.absoluteString == rhs.avatarURL?.absoluteString
+    return lhs.avatarUrl?.absoluteString == rhs.avatarUrl?.absoluteString
         && lhs.emailAddress == rhs.emailAddress
         && lhs.founderNumber == rhs.founderNumber
         && lhs.id == rhs.id

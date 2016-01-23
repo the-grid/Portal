@@ -15,7 +15,7 @@ class GetUserSpec: QuickSpec {
                 let token = "token"
                 let client = APIClient(token: token, configuration: configuration)
                 
-                let avatarURL = "https://s.gravatar.com/avatar/6a12a226806bb77aa45dac4133d76227"
+                let avatarUrl = "https://s.gravatar.com/avatar/6a12a226806bb77aa45dac4133d76227"
                 let emailAddress = "bear@thegrid.io"
                 let founderNumber = 0
                 let id = "f03c6cf1-74ce-4c01-b8fe-cef0f2443e46"
@@ -23,7 +23,7 @@ class GetUserSpec: QuickSpec {
                 let sitesQuota = 7
                 
                 let responseBody = [
-                    "avatar": avatarURL,
+                    "avatar": avatarUrl,
                     "email": emailAddress,
                     "founder": founderNumber,
                     "id": id,
@@ -32,7 +32,7 @@ class GetUserSpec: QuickSpec {
                 ]
                 
                 let user = User(
-                    avatarURL: NSURL(string: avatarURL),
+                    avatarUrl: NSURL(string: avatarUrl),
                     emailAddress: emailAddress,
                     founderNumber: founderNumber,
                     id: NSUUID(UUIDString: id)!,
