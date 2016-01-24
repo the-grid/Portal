@@ -48,6 +48,10 @@
 		2C667AC51C545A82000AE5BA /* CoverPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC31C545A82000AE5BA /* CoverPreferences.swift */; };
 		2C667AC71C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */; };
 		2C667AC81C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */; };
+		2C667ACA1C545ECF000AE5BA /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC91C545ECF000AE5BA /* Publisher.swift */; };
+		2C667ACF1C545FF9000AE5BA /* Publisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC91C545ECF000AE5BA /* Publisher.swift */; };
+		2C667AD01C545FFA000AE5BA /* PublisherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */; };
+		2C667AD11C545FFB000AE5BA /* PublisherSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -155,6 +159,8 @@
 		2C667AC01C544961000AE5BA /* AuthorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthorSpec.swift; path = Models/AuthorSpec.swift; sourceTree = "<group>"; };
 		2C667AC31C545A82000AE5BA /* CoverPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferences.swift; path = Models/CoverPreferences.swift; sourceTree = "<group>"; };
 		2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesSpec.swift; path = Models/CoverPreferencesSpec.swift; sourceTree = "<group>"; };
+		2C667AC91C545ECF000AE5BA /* Publisher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Publisher.swift; path = Models/Publisher.swift; sourceTree = "<group>"; };
+		2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublisherSpec.swift; path = Models/PublisherSpec.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -323,6 +329,7 @@
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */,
+				2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */,
 				2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */,
 				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
@@ -340,6 +347,7 @@
 				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
 				2C667AC31C545A82000AE5BA /* CoverPreferences.swift */,
+				2C667AC91C545ECF000AE5BA /* Publisher.swift */,
 				2CD591611C51B4BA00002C3B /* SchemaType.swift */,
 				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB01E981C499DC400062FE3 /* Site.swift */,
@@ -648,6 +656,7 @@
 				2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB01E9A1C499DC400062FE3 /* Site.swift in Sources */,
 				2CB618C71C3DEA6E002766B5 /* User.swift in Sources */,
+				2C667ACF1C545FF9000AE5BA /* Publisher.swift in Sources */,
 				2CDDD65F1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657951C4DA63B00044602 /* GetSites.swift in Sources */,
 				2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */,
@@ -666,6 +675,7 @@
 				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
+				2C667AD11C545FFB000AE5BA /* PublisherSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
@@ -706,6 +716,7 @@
 				2CD3950D1C444A7A0004D6B7 /* ResultProxy.swift in Sources */,
 				2CB01E991C499DC400062FE3 /* Site.swift in Sources */,
 				2CB618C61C3DEA6E002766B5 /* User.swift in Sources */,
+				2C667ACA1C545ECF000AE5BA /* Publisher.swift in Sources */,
 				2CDDD65E1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657941C4DA63B00044602 /* GetSites.swift in Sources */,
 				2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */,
@@ -724,6 +735,7 @@
 				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
+				2C667AD01C545FFA000AE5BA /* PublisherSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
