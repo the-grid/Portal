@@ -92,6 +92,10 @@
 		2CD591631C51B4BA00002C3B /* SchemaType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591611C51B4BA00002C3B /* SchemaType.swift */; };
 		2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */; };
 		2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */; };
+		2CD5916E1C53035500002C3B /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5916D1C53035500002C3B /* Avatar.swift */; };
+		2CD5916F1C53035500002C3B /* Avatar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD5916D1C53035500002C3B /* Avatar.swift */; };
+		2CD591711C542CD200002C3B /* AvatarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591701C542CD200002C3B /* AvatarSpec.swift */; };
+		2CD591721C542CD200002C3B /* AvatarSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591701C542CD200002C3B /* AvatarSpec.swift */; };
 		2CDDD6591C46DA250041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
 		2CDDD65A1C46DA250041BF06 /* MockingjayMatchers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */; };
 		2CDDD65B1C46DA4B0041BF06 /* Mockingjay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CDDD6571C46DA250041BF06 /* Mockingjay.framework */; };
@@ -167,6 +171,8 @@
 		2CD5915E1C519F4B00002C3B /* NSDateSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NSDateSpec.swift; path = Models/Extensions/NSDateSpec.swift; sourceTree = "<group>"; };
 		2CD591611C51B4BA00002C3B /* SchemaType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaType.swift; path = Models/SchemaType.swift; sourceTree = "<group>"; };
 		2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaTypeSpec.swift; path = Models/SchemaTypeSpec.swift; sourceTree = "<group>"; };
+		2CD5916D1C53035500002C3B /* Avatar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Avatar.swift; path = Models/Avatar.swift; sourceTree = "<group>"; };
+		2CD591701C542CD200002C3B /* AvatarSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvatarSpec.swift; path = Models/AvatarSpec.swift; sourceTree = "<group>"; };
 		2CDDD6571C46DA250041BF06 /* Mockingjay.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Mockingjay.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD6581C46DA250041BF06 /* MockingjayMatchers.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MockingjayMatchers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CDDD65D1C46EC390041BF06 /* Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Networking/Extensions/Manager.swift; sourceTree = "<group>"; };
@@ -300,6 +306,7 @@
 		2CA160881C3F36AB007B7E54 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CD591701C542CD200002C3B /* AvatarSpec.swift */,
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */,
@@ -314,6 +321,7 @@
 		2CB618CB1C3F2D2B002766B5 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2CD5916D1C53035500002C3B /* Avatar.swift */,
 				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
 				2CD591611C51B4BA00002C3B /* SchemaType.swift */,
@@ -613,6 +621,7 @@
 				2C26579D1C4DABE000044602 /* GetSite.swift in Sources */,
 				2C2657A31C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2C2658031C4F569600044602 /* UpdateSite.swift in Sources */,
+				2CD5916F1C53035500002C3B /* Avatar.swift in Sources */,
 				2CD395081C443E950004D6B7 /* GetUser.swift in Sources */,
 				2C2657FA1C4F2A9200044602 /* DeleteSite.swift in Sources */,
 				2C2657921C4D8C7400044602 /* Color.swift in Sources */,
@@ -634,6 +643,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
+				2CD591721C542CD200002C3B /* AvatarSpec.swift in Sources */,
 				2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
@@ -665,6 +675,7 @@
 				2C26579C1C4DABE000044602 /* GetSite.swift in Sources */,
 				2C2657A21C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2C2658021C4F569600044602 /* UpdateSite.swift in Sources */,
+				2CD5916E1C53035500002C3B /* Avatar.swift in Sources */,
 				2CD395071C443E950004D6B7 /* GetUser.swift in Sources */,
 				2C2657F91C4F2A9200044602 /* DeleteSite.swift in Sources */,
 				2C2657911C4D8C7400044602 /* Color.swift in Sources */,
@@ -686,6 +697,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
+				2CD591711C542CD200002C3B /* AvatarSpec.swift in Sources */,
 				2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */,
 				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
