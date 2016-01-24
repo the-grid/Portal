@@ -2,6 +2,9 @@ import Argo
 import Foundation
 import Ogra
 
+
+// MARK: - Decodable
+
 extension NSURL: Decodable {
     public typealias DecodedType = NSURL
     
@@ -14,6 +17,9 @@ extension NSURL: Decodable {
         }
     }
 }
+
+
+// MARK: - Encodable
 
 extension NSURL: Encodable {
     public func encode() -> JSON {

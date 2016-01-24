@@ -2,6 +2,9 @@ import Argo
 import Foundation
 import Ogra
 
+
+// MARK: - Decodable
+
 extension NSUUID: Decodable {
     public typealias DecodedType = NSUUID
     
@@ -14,6 +17,9 @@ extension NSUUID: Decodable {
         }
     }
 }
+
+
+// MARK: - Encodable
 
 extension NSUUID: Encodable {
     public func encode() -> JSON {
