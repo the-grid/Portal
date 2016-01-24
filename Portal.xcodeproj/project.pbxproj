@@ -44,6 +44,10 @@
 		2C3E43E41C3DBE710050A209 /* Portal.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE5C95B1C3D98B500AC9F68 /* Portal.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C667AC11C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
 		2C667AC21C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
+		2C667AC41C545A82000AE5BA /* CoverPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC31C545A82000AE5BA /* CoverPreferences.swift */; };
+		2C667AC51C545A82000AE5BA /* CoverPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC31C545A82000AE5BA /* CoverPreferences.swift */; };
+		2C667AC71C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */; };
+		2C667AC81C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -149,6 +153,8 @@
 		2C2657FE1C4F518800044602 /* UpdateSiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateSiteSpec.swift; path = Networking/Resources/Site/UpdateSiteSpec.swift; sourceTree = "<group>"; };
 		2C2658011C4F569600044602 /* UpdateSite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateSite.swift; path = Networking/Resources/Site/UpdateSite.swift; sourceTree = "<group>"; };
 		2C667AC01C544961000AE5BA /* AuthorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthorSpec.swift; path = Models/AuthorSpec.swift; sourceTree = "<group>"; };
+		2C667AC31C545A82000AE5BA /* CoverPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferences.swift; path = Models/CoverPreferences.swift; sourceTree = "<group>"; };
+		2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesSpec.swift; path = Models/CoverPreferencesSpec.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -316,6 +322,7 @@
 				2CD591701C542CD200002C3B /* AvatarSpec.swift */,
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
+				2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */,
 				2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */,
 				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
@@ -332,6 +339,7 @@
 				2CD5916D1C53035500002C3B /* Avatar.swift */,
 				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
+				2C667AC31C545A82000AE5BA /* CoverPreferences.swift */,
 				2CD591611C51B4BA00002C3B /* SchemaType.swift */,
 				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB01E981C499DC400062FE3 /* Site.swift */,
@@ -627,6 +635,7 @@
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579D1C4DABE000044602 /* GetSite.swift in Sources */,
+				2C667AC51C545A82000AE5BA /* CoverPreferences.swift in Sources */,
 				2C2657A31C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2C2658031C4F569600044602 /* UpdateSite.swift in Sources */,
 				2CD5916F1C53035500002C3B /* Avatar.swift in Sources */,
@@ -661,6 +670,7 @@
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDDA01C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
+				2C667AC81C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
 				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
@@ -683,6 +693,7 @@
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
 				2C26579C1C4DABE000044602 /* GetSite.swift in Sources */,
+				2C667AC41C545A82000AE5BA /* CoverPreferences.swift in Sources */,
 				2C2657A21C4DC5D500044602 /* CreateSite.swift in Sources */,
 				2C2658021C4F569600044602 /* UpdateSite.swift in Sources */,
 				2CD5916E1C53035500002C3B /* Avatar.swift in Sources */,
@@ -717,6 +728,7 @@
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDD9F1C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
+				2C667AC71C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
 				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
