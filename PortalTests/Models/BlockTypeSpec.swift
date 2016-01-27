@@ -3,6 +3,7 @@ import Portal
 import Nimble
 import Ogra
 import Quick
+import XCTest
 
 class BlockTypeSpec: QuickSpec {
     override func spec() {

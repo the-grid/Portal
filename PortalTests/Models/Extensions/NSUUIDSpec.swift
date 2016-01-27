@@ -4,6 +4,7 @@ import Nimble
 import Ogra
 import Portal
 import Quick
+import XCTest
 
 class NSUUIDSpec: QuickSpec {
     override func spec() {

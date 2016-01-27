@@ -3,6 +3,7 @@ import Nimble
 import Ogra
 import Portal
 import Quick
+import XCTest
 
 class ColorConfigSpec: QuickSpec {
     override func spec() {

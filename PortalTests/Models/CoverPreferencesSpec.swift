@@ -3,6 +3,7 @@ import Nimble
 import Ogra
 import Portal
 import Quick
+import XCTest
 
 class CoverPreferencesSpec: QuickSpec {
     override func spec() {

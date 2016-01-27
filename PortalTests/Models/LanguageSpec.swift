@@ -3,6 +3,7 @@ import Portal
 import Nimble
 import Ogra
 import Quick
+import XCTest
 
 class LanguageSpec: QuickSpec {
     override func spec() {
