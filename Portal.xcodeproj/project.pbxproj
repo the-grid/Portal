@@ -58,6 +58,8 @@
 		2C667AD71C5463B3000AE5BA /* LanguageSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AD51C5463B3000AE5BA /* LanguageSpec.swift */; };
 		2C667AD91C5469C2000AE5BA /* MetadataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */; };
 		2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */; };
+		2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */; };
+		2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -96,6 +98,8 @@
 		2CD3950E1C444A7A0004D6B7 /* ResultProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */; };
 		2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */; };
 		2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */; };
+		2CD591531C516BF300002C3B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591521C516BF300002C3B /* Block.swift */; };
+		2CD591541C516BF300002C3B /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591521C516BF300002C3B /* Block.swift */; };
 		2CD591561C517F8E00002C3B /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591551C517F8E00002C3B /* BlockType.swift */; };
 		2CD591571C517F8E00002C3B /* BlockType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591551C517F8E00002C3B /* BlockType.swift */; };
 		2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */; };
@@ -172,6 +176,7 @@
 		2C667AD21C54629A000AE5BA /* Language.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Language.swift; path = Models/Language.swift; sourceTree = "<group>"; };
 		2C667AD51C5463B3000AE5BA /* LanguageSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageSpec.swift; path = Models/LanguageSpec.swift; sourceTree = "<group>"; };
 		2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataSpec.swift; path = Models/MetadataSpec.swift; sourceTree = "<group>"; };
+		2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockSpec.swift; path = Models/BlockSpec.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +198,7 @@
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
 		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
 		2CD3950F1C4455000004D6B7 /* GetUserSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetUserSpec.swift; path = Networking/Resources/User/GetUserSpec.swift; sourceTree = "<group>"; };
+		2CD591521C516BF300002C3B /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = Models/Block.swift; sourceTree = "<group>"; };
 		2CD591551C517F8E00002C3B /* BlockType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockType.swift; path = Models/BlockType.swift; sourceTree = "<group>"; };
 		2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTypeSpec.swift; path = Models/BlockTypeSpec.swift; sourceTree = "<group>"; };
 		2CD5915B1C5191B700002C3B /* NSDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDate.swift; sourceTree = "<group>"; };
@@ -338,6 +344,7 @@
 			children = (
 				2C667AC01C544961000AE5BA /* AuthorSpec.swift */,
 				2CD591701C542CD200002C3B /* AvatarSpec.swift */,
+				2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */,
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */,
@@ -358,6 +365,7 @@
 			children = (
 				2CD5916A1C52FB7600002C3B /* Author.swift */,
 				2CD5916D1C53035500002C3B /* Avatar.swift */,
+				2CD591521C516BF300002C3B /* Block.swift */,
 				2CD591551C517F8E00002C3B /* BlockType.swift */,
 				2C8DDD9B1C49C37300ABC36B /* ColorConfig.swift */,
 				2C667AC31C545A82000AE5BA /* CoverPreferences.swift */,
@@ -677,6 +685,7 @@
 				2C667ACF1C545FF9000AE5BA /* Publisher.swift in Sources */,
 				2CDDD65F1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657951C4DA63B00044602 /* GetSites.swift in Sources */,
+				2CD591541C516BF300002C3B /* Block.swift in Sources */,
 				2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187F1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
 				2CD591631C51B4BA00002C3B /* SchemaType.swift in Sources */,
@@ -703,6 +712,7 @@
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
+				2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
 				2C2657FD1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
@@ -741,6 +751,7 @@
 				2C667ACA1C545ECF000AE5BA /* Publisher.swift in Sources */,
 				2CDDD65E1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657941C4DA63B00044602 /* GetSites.swift in Sources */,
+				2CD591531C516BF300002C3B /* Block.swift in Sources */,
 				2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187E1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
 				2CD591621C51B4BA00002C3B /* SchemaType.swift in Sources */,
@@ -767,6 +778,7 @@
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
+				2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
 				2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667AD91C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
