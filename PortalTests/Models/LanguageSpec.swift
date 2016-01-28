@@ -1115,23 +1115,17 @@ class LanguageSpec: QuickSpec {
         
         describe("decoding") {
             it("should produce a Language") {
-                let rawValue = "en"
-                let json = JSON.String(rawValue)
-                guard let decoded = Language.decode(json).value else {
-                    return XCTFail("Unable to decode JSON: \(json)")
+                guard let decoded = Language.decode(languageJson).value else {
+                    return XCTFail("Unable to decode JSON: \(languageJson)")
                 }
-                let language = Language(rawValue: rawValue)
-                expect(decoded).to(equal(language))
+                expect(decoded).to(equal(languageModel))
             }
         }
         
         describe("encoding") {
             it("should produce JSON") {
-                let rawValue = "en"
-                let language = Language(rawValue: rawValue)
-                let encoded = language.encode()
-                let json = JSON.String(rawValue)
-                expect(encoded).to(equal(json))
+                let encoded = languageModel.encode()
+                expect(encoded).to(equal(languageJson))
             }
         }
     }
