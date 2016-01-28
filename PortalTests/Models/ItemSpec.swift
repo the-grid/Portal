@@ -31,7 +31,7 @@ class ItemSpec: QuickSpec {
             "height": .Number(avatarHeight),
             "src": .String(avatarUrl),
             "width": .Number(avatarWidth)
-            ])
+        ])
         
         let avatar = Avatar(
             colors: [
