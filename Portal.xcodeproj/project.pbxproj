@@ -348,8 +348,8 @@
 			children = (
 				2C2657A11C4DC5D500044602 /* CreateSite.swift */,
 				2C2657F81C4F2A9200044602 /* DeleteSite.swift */,
-				2C2657931C4DA63B00044602 /* GetSites.swift */,
 				2C26579B1C4DABE000044602 /* GetSite.swift */,
+				2C2657931C4DA63B00044602 /* GetSites.swift */,
 				2C2658011C4F569600044602 /* UpdateSite.swift */,
 			);
 			name = Site;
