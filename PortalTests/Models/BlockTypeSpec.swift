@@ -102,23 +102,17 @@ class BlockTypeSpec: QuickSpec {
         
         describe("decoding") {
             it("should produce a BlockType") {
-                let rawValue = "text"
-                let json = JSON.String(rawValue)
-                guard let decoded = BlockType.decode(json).value else {
-                    return XCTFail("Unable to decode JSON: \(json)")
+                guard let decoded = BlockType.decode(blockTypeJson).value else {
+                    return XCTFail("Unable to decode JSON: \(blockTypeJson)")
                 }
-                let blockType = BlockType(rawValue: rawValue)
-                expect(decoded).to(equal(blockType))
+                expect(decoded).to(equal(blockTypeModel))
             }
         }
         
         describe("encoding") {
             it("should produce JSON") {
-                let rawValue = "text"
-                let blockType = BlockType(rawValue: rawValue)
-                let encoded = blockType.encode()
-                let json = JSON.String(rawValue)
-                expect(encoded).to(equal(json))
+                let encoded = blockTypeModel.encode()
+                expect(encoded).to(equal(blockTypeJson))
             }
         }
     }

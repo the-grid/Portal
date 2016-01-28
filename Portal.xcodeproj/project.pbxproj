@@ -78,6 +78,8 @@
 		2C6F8A681C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */; };
 		2C6F8A6A1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */; };
 		2C6F8A6B1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */; };
+		2C6F8A6D1C59EE6300EED578 /* BlockTypeFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */; };
+		2C6F8A6E1C59EE6300EED578 /* BlockTypeFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -206,6 +208,7 @@
 		2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockSpec.swift; path = Models/BlockSpec.swift; sourceTree = "<group>"; };
 		2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorConfigFixtures.swift; path = Fixtures/ColorConfigFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesFixtures.swift; path = Fixtures/CoverPreferencesFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTypeFixtures.swift; path = Fixtures/BlockTypeFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -369,6 +372,7 @@
 			children = (
 				2C5678C71C59DFF300FFBCD6 /* AuthorFixtures.swift */,
 				2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */,
+				2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */,
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
 				2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */,
 				2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */,
@@ -762,6 +766,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6F8A6E1C59EE6300EED578 /* BlockTypeFixtures.swift in Sources */,
 				2C9492751C585B700028DA55 /* ItemSpec.swift in Sources */,
 				2C2657881C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD591721C542CD200002C3B /* AvatarSpec.swift in Sources */,
@@ -838,6 +843,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6F8A6D1C59EE6300EED578 /* BlockTypeFixtures.swift in Sources */,
 				2C9492741C585B700028DA55 /* ItemSpec.swift in Sources */,
 				2C2657871C4D864400044602 /* NSURLSpec.swift in Sources */,
 				2CD591711C542CD200002C3B /* AvatarSpec.swift in Sources */,
