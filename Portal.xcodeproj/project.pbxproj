@@ -92,6 +92,8 @@
 		2C6F8A7D1C59FD2800EED578 /* SiteConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */; };
 		2C6F8A7F1C59FDD600EED578 /* SiteFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */; };
 		2C6F8A801C59FDD600EED578 /* SiteFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */; };
+		2C6F8A821C59FEE700EED578 /* BlockFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */; };
+		2C6F8A831C59FEE700EED578 /* BlockFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -227,6 +229,7 @@
 		2C6F8A781C59F3C500EED578 /* MetadataFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataFixtures.swift; path = Fixtures/MetadataFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteConfigFixtures.swift; path = Fixtures/SiteConfigFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteFixtures.swift; path = Fixtures/SiteFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockFixtures.swift; path = Fixtures/BlockFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -390,6 +393,7 @@
 			children = (
 				2C5678C71C59DFF300FFBCD6 /* AuthorFixtures.swift */,
 				2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */,
+				2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */,
 				2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */,
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
 				2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */,
@@ -825,6 +829,7 @@
 				2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2C667AD71C5463B3000AE5BA /* LanguageSpec.swift in Sources */,
+				2C6F8A831C59FEE700EED578 /* BlockFixtures.swift in Sources */,
 				2C2658001C4F518800044602 /* UpdateSiteSpec.swift in Sources */,
 				2C6F8A7A1C59F3C500EED578 /* MetadataFixtures.swift in Sources */,
 				2C2657991C4DA6A300044602 /* GetSitesSpec.swift in Sources */,
@@ -908,6 +913,7 @@
 				2C667AD91C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2C667AD61C5463B3000AE5BA /* LanguageSpec.swift in Sources */,
+				2C6F8A821C59FEE700EED578 /* BlockFixtures.swift in Sources */,
 				2C2657FF1C4F518800044602 /* UpdateSiteSpec.swift in Sources */,
 				2C6F8A791C59F3C500EED578 /* MetadataFixtures.swift in Sources */,
 				2C2657981C4DA6A300044602 /* GetSitesSpec.swift in Sources */,
