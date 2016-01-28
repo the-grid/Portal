@@ -37,15 +37,14 @@ public struct Block {
 
 extension Block: Decodable {
     public static func decode(json: JSON) -> Decoded<Block> {
-        let f = curry(self.init)
-            <^> .optional(json <| "created_at" >>- toNSDate)
+        return curry(self.init)
+            <^> (json <| "created_at" >>- toNSDate)
             <*> json <| "html"
             <*> json <| "id"
             <*> json <| "item"
             <*> json <|? "metadata"
             <*> json <| "type"
-        return f
-            <*> .optional(json <| "updated_at" >>- toNSDate)
+            <*> (json <| "updated_at" >>- toNSDate)
     }
 }
 
