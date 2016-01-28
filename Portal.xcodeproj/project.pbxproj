@@ -52,6 +52,8 @@
 		2C5678C01C59D91100FFBCD6 /* UserFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */; };
 		2C5678C21C59D9F800FFBCD6 /* ColorFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */; };
 		2C5678C31C59D9F800FFBCD6 /* ColorFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */; };
+		2C5678C51C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */; };
+		2C5678C61C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */; };
 		2C667AC11C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
 		2C667AC21C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
 		2C667AC41C545A82000AE5BA /* CoverPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC31C545A82000AE5BA /* CoverPreferences.swift */; };
@@ -185,6 +187,7 @@
 		2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItemSpec.swift; path = Networking/Resources/Item/GetItemSpec.swift; sourceTree = "<group>"; };
 		2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserFixtures.swift; path = Fixtures/UserFixtures.swift; sourceTree = "<group>"; };
 		2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorFixtures.swift; path = Fixtures/ColorFixtures.swift; sourceTree = "<group>"; };
+		2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AvatarFixtures.swift; path = Fixtures/AvatarFixtures.swift; sourceTree = "<group>"; };
 		2C667AC01C544961000AE5BA /* AuthorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthorSpec.swift; path = Models/AuthorSpec.swift; sourceTree = "<group>"; };
 		2C667AC31C545A82000AE5BA /* CoverPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferences.swift; path = Models/CoverPreferences.swift; sourceTree = "<group>"; };
 		2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesSpec.swift; path = Models/CoverPreferencesSpec.swift; sourceTree = "<group>"; };
@@ -355,6 +358,7 @@
 		2C5678BC1C59D6D600FFBCD6 /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
+				2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */,
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
 				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
 			);
@@ -765,6 +769,7 @@
 				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
+				2C5678C61C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
 				2C2657FD1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
@@ -837,6 +842,7 @@
 				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
+				2C5678C51C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
 				2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
