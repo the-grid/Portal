@@ -376,6 +376,7 @@
 				2CD591581C5183CA00002C3B /* BlockTypeSpec.swift */,
 				2C8DDD9E1C49C5CB00ABC36B /* ColorConfigSpec.swift */,
 				2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */,
+				2C9492731C585B700028DA55 /* ItemSpec.swift */,
 				2C667AD51C5463B3000AE5BA /* LanguageSpec.swift */,
 				2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */,
 				2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */,
@@ -384,7 +385,6 @@
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
 				2CA160831C3F342B007B7E54 /* UserSpec.swift */,
 				2C2657891C4D865C00044602 /* Extensions */,
-				2C9492731C585B700028DA55 /* ItemSpec.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
