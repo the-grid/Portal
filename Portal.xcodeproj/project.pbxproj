@@ -84,6 +84,8 @@
 		2C6F8A711C59EF7F00EED578 /* LanguageFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A6F1C59EF7F00EED578 /* LanguageFixtures.swift */; };
 		2C6F8A731C59F13F00EED578 /* PublisherFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */; };
 		2C6F8A741C59F13F00EED578 /* PublisherFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */; };
+		2C6F8A761C59F29900EED578 /* SchemaTypeFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */; };
+		2C6F8A771C59F29900EED578 /* SchemaTypeFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -215,6 +217,7 @@
 		2C6F8A6C1C59EE6300EED578 /* BlockTypeFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockTypeFixtures.swift; path = Fixtures/BlockTypeFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A6F1C59EF7F00EED578 /* LanguageFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageFixtures.swift; path = Fixtures/LanguageFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PublisherFixtures.swift; path = Fixtures/PublisherFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaTypeFixtures.swift; path = Fixtures/SchemaTypeFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -384,6 +387,7 @@
 				2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */,
 				2C6F8A6F1C59EF7F00EED578 /* LanguageFixtures.swift */,
 				2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */,
+				2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */,
 				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
 			);
 			name = Fixtures;
@@ -782,6 +786,7 @@
 				2C5678C31C59D9F800FFBCD6 /* ColorFixtures.swift in Sources */,
 				2C6F8A711C59EF7F00EED578 /* LanguageFixtures.swift in Sources */,
 				2C2657A91C4E110D00044602 /* NimbleMatchers.swift in Sources */,
+				2C6F8A771C59F29900EED578 /* SchemaTypeFixtures.swift in Sources */,
 				2C5678B71C59781200FFBCD6 /* GetItemSpec.swift in Sources */,
 				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
@@ -861,6 +866,7 @@
 				2C5678C21C59D9F800FFBCD6 /* ColorFixtures.swift in Sources */,
 				2C6F8A701C59EF7F00EED578 /* LanguageFixtures.swift in Sources */,
 				2C2657A81C4E110D00044602 /* NimbleMatchers.swift in Sources */,
+				2C6F8A761C59F29900EED578 /* SchemaTypeFixtures.swift in Sources */,
 				2C5678B61C59781200FFBCD6 /* GetItemSpec.swift in Sources */,
 				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,

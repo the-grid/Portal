@@ -3947,23 +3947,17 @@ class SchemaTypeSpec: QuickSpec {
         
         describe("decoding") {
             it("should produce a SchemaType") {
-                let rawValue = "Thing"
-                let json = JSON.String(rawValue)
-                guard let decoded = SchemaType.decode(json).value else {
-                    return XCTFail("Unable to decode JSON: \(json)")
+                guard let decoded = SchemaType.decode(schemaTypeJson).value else {
+                    return XCTFail("Unable to decode JSON: \(schemaTypeJson)")
                 }
-                let schemaType = SchemaType(rawValue: rawValue)
-                expect(decoded).to(equal(schemaType))
+                expect(decoded).to(equal(schemaTypeModel))
             }
         }
         
         describe("encoding") {
             it("should produce JSON") {
-                let rawValue = "Thing"
-                let schemaType = SchemaType(rawValue: rawValue)
-                let encoded = schemaType.encode()
-                let json = JSON.String(rawValue)
-                expect(encoded).to(equal(json))
+                let encoded = schemaTypeModel.encode()
+                expect(encoded).to(equal(schemaTypeJson))
             }
         }
     }
