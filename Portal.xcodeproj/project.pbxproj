@@ -436,8 +436,8 @@
 				2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */,
 				2C667ACC1C545FEE000AE5BA /* PublisherSpec.swift */,
 				2CD591641C51B70C00002C3B /* SchemaTypeSpec.swift */,
-				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */,
+				2C8DDD961C49BFEA00ABC36B /* SiteConfigSpec.swift */,
 				2CA160831C3F342B007B7E54 /* UserSpec.swift */,
 				2C2657891C4D865C00044602 /* Extensions */,
 			);
@@ -458,8 +458,8 @@
 				2CD591671C5200E100002C3B /* Metadata.swift */,
 				2C667AC91C545ECF000AE5BA /* Publisher.swift */,
 				2CD591611C51B4BA00002C3B /* SchemaType.swift */,
-				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB01E981C499DC400062FE3 /* Site.swift */,
+				2C8DDD901C49AEC900ABC36B /* SiteConfig.swift */,
 				2CB618C51C3DEA6E002766B5 /* User.swift */,
 				2CFFC5581C3F391A005B321C /* Extensions */,
 			);
