@@ -48,6 +48,8 @@
 		2C5678B41C5977F200FFBCD6 /* GetItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */; };
 		2C5678B61C59781200FFBCD6 /* GetItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */; };
 		2C5678B71C59781200FFBCD6 /* GetItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */; };
+		2C5678BF1C59D91100FFBCD6 /* UserFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */; };
+		2C5678C01C59D91100FFBCD6 /* UserFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */; };
 		2C667AC11C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
 		2C667AC21C544961000AE5BA /* AuthorSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC01C544961000AE5BA /* AuthorSpec.swift */; };
 		2C667AC41C545A82000AE5BA /* CoverPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AC31C545A82000AE5BA /* CoverPreferences.swift */; };
@@ -179,6 +181,7 @@
 		2C3D48F01C5062F70028B983 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Item.swift; path = Models/Item.swift; sourceTree = "<group>"; };
 		2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItem.swift; path = Portal/Networking/Resources/Item/GetItem.swift; sourceTree = SOURCE_ROOT; };
 		2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItemSpec.swift; path = Networking/Resources/Item/GetItemSpec.swift; sourceTree = "<group>"; };
+		2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserFixtures.swift; path = Fixtures/UserFixtures.swift; sourceTree = "<group>"; };
 		2C667AC01C544961000AE5BA /* AuthorSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AuthorSpec.swift; path = Models/AuthorSpec.swift; sourceTree = "<group>"; };
 		2C667AC31C545A82000AE5BA /* CoverPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferences.swift; path = Models/CoverPreferences.swift; sourceTree = "<group>"; };
 		2C667AC61C545BEA000AE5BA /* CoverPreferencesSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesSpec.swift; path = Models/CoverPreferencesSpec.swift; sourceTree = "<group>"; };
@@ -346,6 +349,14 @@
 			name = Item;
 			sourceTree = "<group>";
 		};
+		2C5678BC1C59D6D600FFBCD6 /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
+			);
+			name = Fixtures;
+			sourceTree = "<group>";
+		};
 		2C9C18831C3F47C70039DAB5 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
@@ -496,6 +507,7 @@
 			isa = PBXGroup;
 			children = (
 				2CE5C9691C3D98B500AC9F68 /* Info.plist */,
+				2C5678BC1C59D6D600FFBCD6 /* Fixtures */,
 				2C2657AA1C4E112400044602 /* Helpers */,
 				2CA160881C3F36AB007B7E54 /* Models */,
 				2CD395121C4455070004D6B7 /* Networking */,
@@ -738,6 +750,7 @@
 				2C2657A61C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395161C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
+				2C5678C01C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD11C545FFB000AE5BA /* PublisherSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
@@ -808,6 +821,7 @@
 				2C2657A51C4DC6D200044602 /* CreateSiteSpec.swift in Sources */,
 				2CD395151C4455560004D6B7 /* GetUserSpec.swift in Sources */,
 				2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
+				2C5678BF1C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD01C545FFA000AE5BA /* PublisherSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
