@@ -76,6 +76,8 @@
 		2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */; };
 		2C6F8A671C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */; };
 		2C6F8A681C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */; };
+		2C6F8A6A1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */; };
+		2C6F8A6B1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -203,6 +205,7 @@
 		2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataSpec.swift; path = Models/MetadataSpec.swift; sourceTree = "<group>"; };
 		2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockSpec.swift; path = Models/BlockSpec.swift; sourceTree = "<group>"; };
 		2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorConfigFixtures.swift; path = Fixtures/ColorConfigFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoverPreferencesFixtures.swift; path = Fixtures/CoverPreferencesFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -368,6 +371,7 @@
 				2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */,
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
 				2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */,
+				2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */,
 				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
 			);
 			name = Fixtures;
@@ -774,6 +778,7 @@
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDDA01C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
+				2C6F8A6B1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */,
 				2C667AC81C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
 				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
@@ -849,6 +854,7 @@
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDD9F1C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
+				2C6F8A6A1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */,
 				2C667AC71C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
 				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
