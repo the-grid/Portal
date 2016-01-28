@@ -15,39 +15,18 @@ class UpdateSiteSpec: QuickSpec {
                 let token = "token"
                 let client = APIClient(token: token, configuration: configuration)
             
-                let id = "ab661668-c9a2-4946-8b82-0616de966e4a"
-                let owner = "f03c6cf1-74ce-4c01-b8fe-cef0f2443e46"
+                var site = siteModel
+                let id = siteModel.id.UUIDString.lowercaseString
+                let owner = siteModel.owner.UUIDString.lowercaseString
                 
-                let colorConfig = ColorConfig(
-                    brandColors: [
-                        Color(red: 0, green: 0, blue: 0, alpha: 1),
-                        Color(red: 1, green: 1, blue: 1, alpha: 1)
-                    ],
-                    brandStrength: 0.5,
-                    lightness: 0.5,
-                    saturation: 0.5
-                )
+                let brandColors = [
+                    "#ff0000",
+                    "#00ff00",
+                    "#0000ff",
+                    "#00ffff",
+                    "#ffff00"
+                ]
                 
-                let siteConfig = SiteConfig(
-                    color: colorConfig,
-                    favicon: NSURL(string: "https://gridbear.com/favicon.png"),
-                    layout: 0.5,
-                    logo: NSURL(string: "https://gridbear.com/logo.png"),
-                    typography: 0.5
-                )
-                
-                var site = Site(
-                    config: siteConfig,
-                    domain: "https://gridbear.com",
-                    favlogo: NSURL(string: "https://gridbear.com/favlogo.png"),
-                    id: NSUUID(UUIDString: id)!,
-                    name: "Grid Bear",
-                    path: "/grid-bear",
-                    owner: NSUUID(UUIDString: owner)!,
-                    repo: "the-domains/grid-bear"
-                )
-
-                let brandColors = [ "#404040", "#c0c0c0" ]
                 let brandStrength: Float = 0
                 let lightness: Float = 0
                 let saturation: Float = 0
@@ -64,8 +43,11 @@ class UpdateSiteSpec: QuickSpec {
                 let repo = "the-domains/grid-beard"
                 
                 site.config?.color?.brandColors = [
-                    Color(red: 64/255, green: 64/255, blue: 64/255, alpha: 1),
-                    Color(red: 192/255, green: 192/255, blue: 192/255, alpha: 1)
+                    Color(red: 1, green: 0, blue: 0, alpha: 1),
+                    Color(red: 0, green: 1, blue: 0, alpha: 1),
+                    Color(red: 0, green: 0, blue: 1, alpha: 1),
+                    Color(red: 0, green: 1, blue: 1, alpha: 1),
+                    Color(red: 1, green: 1, blue: 0, alpha: 1)
                 ]
                 
                 site.config?.color?.brandStrength = brandStrength
@@ -83,27 +65,28 @@ class UpdateSiteSpec: QuickSpec {
                 site.path = path
                 site.repo = repo
                 
-                let body: [String: AnyObject] = [
-                    "config": [
-                        "color": [
-                            "brandColors": brandColors,
-                            "brandStrength": brandStrength,
-                            "lightness": lightness,
-                            "saturation": saturation
-                        ],
-                        "favicon": favicon,
-                        "layout_spectrum": layout,
-                        "logo": logo,
-                        "typography_spectrum": typography
-                    ],
-                    "domain": domain,
-                    "favlogo": favlogo,
-                    "id": id,
-                    "name": name,
-                    "path": path,
-                    "owner": owner,
-                    "repo": repo
-                ]
+                var colorConfig = colorConfigResponseBody
+                colorConfig["brandColors"] = brandColors
+                colorConfig["brandStrength"] = brandStrength
+                colorConfig["lightness"] = lightness
+                colorConfig["saturation"] = saturation
+                
+                var siteConfig = siteConfigResponseBody
+                siteConfig["color"] = colorConfig
+                siteConfig["favicon"] = favicon
+                siteConfig["layout_spectrum"] = layout
+                siteConfig["logo"] = logo
+                siteConfig["typography_spectrum"] = typography
+                
+                var body = siteResponseBody
+                body["config"] = siteConfig
+                body["domain"] = domain
+                body["favlogo"] = favlogo
+                body["id"] = id
+                body["name"] = name
+                body["path"] = path
+                body["owner"] = owner
+                body["repo"] = repo
                 
                 let matcher = api(.PUT, "https://api.thegrid.io/site/\(id)", token: token, body: body)
                 let builder = http(200)

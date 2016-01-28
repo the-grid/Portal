@@ -90,6 +90,8 @@
 		2C6F8A7A1C59F3C500EED578 /* MetadataFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A781C59F3C500EED578 /* MetadataFixtures.swift */; };
 		2C6F8A7C1C59FD2800EED578 /* SiteConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */; };
 		2C6F8A7D1C59FD2800EED578 /* SiteConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */; };
+		2C6F8A7F1C59FDD600EED578 /* SiteFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */; };
+		2C6F8A801C59FDD600EED578 /* SiteFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -224,6 +226,7 @@
 		2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SchemaTypeFixtures.swift; path = Fixtures/SchemaTypeFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A781C59F3C500EED578 /* MetadataFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataFixtures.swift; path = Fixtures/MetadataFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteConfigFixtures.swift; path = Fixtures/SiteConfigFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteFixtures.swift; path = Fixtures/SiteFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,6 +398,7 @@
 				2C6F8A781C59F3C500EED578 /* MetadataFixtures.swift */,
 				2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */,
 				2C6F8A751C59F29900EED578 /* SchemaTypeFixtures.swift */,
+				2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */,
 				2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */,
 				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
 			);
@@ -809,6 +813,7 @@
 				2C6F8A7D1C59FD2800EED578 /* SiteConfigFixtures.swift in Sources */,
 				2C6F8A6B1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */,
 				2C667AC81C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
+				2C6F8A801C59FDD600EED578 /* SiteFixtures.swift in Sources */,
 				2C26578F1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C5678C91C59DFF300FFBCD6 /* AuthorFixtures.swift in Sources */,
@@ -891,6 +896,7 @@
 				2C6F8A7C1C59FD2800EED578 /* SiteConfigFixtures.swift in Sources */,
 				2C6F8A6A1C59EB5400EED578 /* CoverPreferencesFixtures.swift in Sources */,
 				2C667AC71C545BEA000AE5BA /* CoverPreferencesSpec.swift in Sources */,
+				2C6F8A7F1C59FDD600EED578 /* SiteFixtures.swift in Sources */,
 				2C26578E1C4D8C4E00044602 /* ColorSpec.swift in Sources */,
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C5678C81C59DFF300FFBCD6 /* AuthorFixtures.swift in Sources */,

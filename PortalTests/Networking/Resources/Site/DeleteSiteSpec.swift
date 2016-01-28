@@ -15,7 +15,7 @@ class DeleteSiteSpec: QuickSpec {
                 let token = "token"
                 let client = APIClient(token: token, configuration: configuration)
                 
-                let id = "ab661668-c9a2-4946-8b82-0616de966e4a"
+                let id = siteModel.id.UUIDString.lowercaseString
                 
                 let matcher = api(.DELETE, "https://api.thegrid.io/site/\(id)", token: token)
                 let builder = http(200)
