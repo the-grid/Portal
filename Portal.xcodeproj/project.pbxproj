@@ -74,6 +74,8 @@
 		2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */; };
 		2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */; };
 		2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */; };
+		2C6F8A671C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */; };
+		2C6F8A681C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -200,6 +202,7 @@
 		2C667AD51C5463B3000AE5BA /* LanguageSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LanguageSpec.swift; path = Models/LanguageSpec.swift; sourceTree = "<group>"; };
 		2C667AD81C5469C2000AE5BA /* MetadataSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MetadataSpec.swift; path = Models/MetadataSpec.swift; sourceTree = "<group>"; };
 		2C667ADB1C547AEF000AE5BA /* BlockSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockSpec.swift; path = Models/BlockSpec.swift; sourceTree = "<group>"; };
+		2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ColorConfigFixtures.swift; path = Fixtures/ColorConfigFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -364,6 +367,7 @@
 				2C5678C71C59DFF300FFBCD6 /* AuthorFixtures.swift */,
 				2C5678C41C59DBA800FFBCD6 /* AvatarFixtures.swift */,
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
+				2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */,
 				2C5678BE1C59D91100FFBCD6 /* UserFixtures.swift */,
 			);
 			name = Fixtures;
@@ -766,6 +770,7 @@
 				2C5678C01C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD11C545FFB000AE5BA /* PublisherSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
+				2C6F8A681C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */,
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD9A1C49C01400ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDDA01C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
@@ -840,6 +845,7 @@
 				2C5678BF1C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD01C545FFA000AE5BA /* PublisherSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
+				2C6F8A671C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */,
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
 				2C8DDD991C49C01300ABC36B /* SiteConfigSpec.swift in Sources */,
 				2C8DDD9F1C49C5CB00ABC36B /* ColorConfigSpec.swift in Sources */,
