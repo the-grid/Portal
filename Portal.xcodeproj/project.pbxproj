@@ -94,6 +94,8 @@
 		2C6F8A801C59FDD600EED578 /* SiteFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */; };
 		2C6F8A821C59FEE700EED578 /* BlockFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */; };
 		2C6F8A831C59FEE700EED578 /* BlockFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */; };
+		2C6F8A851C5A000400EED578 /* ItemFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A841C5A000400EED578 /* ItemFixtures.swift */; };
+		2C6F8A861C5A000400EED578 /* ItemFixtures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6F8A841C5A000400EED578 /* ItemFixtures.swift */; };
 		2C7BC3871C3DDFC300644053 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3821C3DDFC300644053 /* Alamofire.framework */; };
 		2C7BC3881C3DDFC300644053 /* Argo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3831C3DDFC300644053 /* Argo.framework */; };
 		2C7BC3891C3DDFC300644053 /* Curry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3841C3DDFC300644053 /* Curry.framework */; };
@@ -230,6 +232,7 @@
 		2C6F8A7B1C59FD2800EED578 /* SiteConfigFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteConfigFixtures.swift; path = Fixtures/SiteConfigFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A7E1C59FDD600EED578 /* SiteFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteFixtures.swift; path = Fixtures/SiteFixtures.swift; sourceTree = "<group>"; };
 		2C6F8A811C59FEE700EED578 /* BlockFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockFixtures.swift; path = Fixtures/BlockFixtures.swift; sourceTree = "<group>"; };
+		2C6F8A841C5A000400EED578 /* ItemFixtures.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ItemFixtures.swift; path = Fixtures/ItemFixtures.swift; sourceTree = "<group>"; };
 		2C7BC3821C3DDFC300644053 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3831C3DDFC300644053 /* Argo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Argo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7BC3841C3DDFC300644053 /* Curry.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Curry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -398,6 +401,7 @@
 				2C5678C11C59D9F800FFBCD6 /* ColorFixtures.swift */,
 				2C6F8A661C59E6D400EED578 /* ColorConfigFixtures.swift */,
 				2C6F8A691C59EB5400EED578 /* CoverPreferencesFixtures.swift */,
+				2C6F8A841C5A000400EED578 /* ItemFixtures.swift */,
 				2C6F8A6F1C59EF7F00EED578 /* LanguageFixtures.swift */,
 				2C6F8A781C59F3C500EED578 /* MetadataFixtures.swift */,
 				2C6F8A721C59F13F00EED578 /* PublisherFixtures.swift */,
@@ -822,6 +826,7 @@
 				2C8DDD8F1C49A51500ABC36B /* SiteSpec.swift in Sources */,
 				2C5678C91C59DFF300FFBCD6 /* AuthorFixtures.swift in Sources */,
 				2C26578C1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
+				2C6F8A861C5A000400EED578 /* ItemFixtures.swift in Sources */,
 				2C5678C61C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
@@ -906,6 +911,7 @@
 				2C8DDD8E1C49A51400ABC36B /* SiteSpec.swift in Sources */,
 				2C5678C81C59DFF300FFBCD6 /* AuthorFixtures.swift in Sources */,
 				2C26578B1C4D884300044602 /* NSUUIDSpec.swift in Sources */,
+				2C6F8A851C5A000400EED578 /* ItemFixtures.swift in Sources */,
 				2C5678C51C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
