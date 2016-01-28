@@ -128,6 +128,10 @@
 		2CB618C41C3DE088002766B5 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C7BC3861C3DDFC300644053 /* Result.framework */; };
 		2CB618C61C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
 		2CB618C71C3DEA6E002766B5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB618C51C3DEA6E002766B5 /* User.swift */; };
+		2CD118971C5AD9A60076D913 /* GetItemsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */; };
+		2CD118981C5AD9A60076D913 /* GetItemsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */; };
+		2CD1189A1C5ADA220076D913 /* GetItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118991C5ADA220076D913 /* GetItems.swift */; };
+		2CD1189B1C5ADA220076D913 /* GetItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118991C5ADA220076D913 /* GetItems.swift */; };
 		2CD395071C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD395081C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395091C44471B0004D6B7 /* Result.swift */; };
@@ -251,6 +255,8 @@
 		2CB01E981C499DC400062FE3 /* Site.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Site.swift; path = Models/Site.swift; sourceTree = "<group>"; };
 		2CB01E9B1C49A4E900062FE3 /* SiteSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SiteSpec.swift; path = Models/SiteSpec.swift; sourceTree = "<group>"; };
 		2CB618C51C3DEA6E002766B5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItemsSpec.swift; path = Networking/Resources/Item/GetItemsSpec.swift; sourceTree = "<group>"; };
+		2CD118991C5ADA220076D913 /* GetItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItems.swift; path = Networking/Resources/Item/GetItems.swift; sourceTree = "<group>"; };
 		2CD395061C443E950004D6B7 /* GetUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
 		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
@@ -379,6 +385,7 @@
 			isa = PBXGroup;
 			children = (
 				2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */,
+				2CD118991C5ADA220076D913 /* GetItems.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -387,6 +394,7 @@
 			isa = PBXGroup;
 			children = (
 				2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */,
+				2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -767,6 +775,7 @@
 				2C667AD41C54629A000AE5BA /* Language.swift in Sources */,
 				2CFFC55E1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18861C3F48070039DAB5 /* Request.swift in Sources */,
+				2CD1189B1C5ADA220076D913 /* GetItems.swift in Sources */,
 				2C26579D1C4DABE000044602 /* GetSite.swift in Sources */,
 				2C667AC51C545A82000AE5BA /* CoverPreferences.swift in Sources */,
 				2C2657A31C4DC5D500044602 /* CreateSite.swift in Sources */,
@@ -830,6 +839,7 @@
 				2C5678C61C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160871C3F368C007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADD1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
+				2CD118981C5AD9A60076D913 /* GetItemsSpec.swift in Sources */,
 				2C2657FD1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
@@ -852,6 +862,7 @@
 				2C667AD31C54629A000AE5BA /* Language.swift in Sources */,
 				2CFFC55D1C3F391A005B321C /* NSUUID.swift in Sources */,
 				2C9C18851C3F48070039DAB5 /* Request.swift in Sources */,
+				2CD1189A1C5ADA220076D913 /* GetItems.swift in Sources */,
 				2C26579C1C4DABE000044602 /* GetSite.swift in Sources */,
 				2C667AC41C545A82000AE5BA /* CoverPreferences.swift in Sources */,
 				2C2657A21C4DC5D500044602 /* CreateSite.swift in Sources */,
@@ -915,6 +926,7 @@
 				2C5678C51C59DBA800FFBCD6 /* AvatarFixtures.swift in Sources */,
 				2CA160861C3F368A007B7E54 /* UserSpec.swift in Sources */,
 				2C667ADC1C547AEF000AE5BA /* BlockSpec.swift in Sources */,
+				2CD118971C5AD9A60076D913 /* GetItemsSpec.swift in Sources */,
 				2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667AD91C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
 				2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
