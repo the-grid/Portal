@@ -61,11 +61,6 @@ class ItemSpec: QuickSpec {
             url: NSURL(string: authorUrl)
         )
         
-        let authors = [ author ]
-        
-        
-        let basedOnUrl = "https://gridbear.com"
-        
         
         let crop = true
         let filter = true
@@ -82,12 +77,6 @@ class ItemSpec: QuickSpec {
             filter: filter,
             overlay: overlay
         )
-        
-        
-        let keywords = [ "grid", "bear" ]
-        
-        
-        let language = "en"
         
         
         let publisherDomain = "gridbear.com"
@@ -110,9 +99,11 @@ class ItemSpec: QuickSpec {
         )
         
         
+        let authors = [ author ]
+        let basedOnUrl = "https://gridbear.com"
+        let keywords = [ "grid", "bear" ]
+        let language = "en"
         let starred = true
-        
-        
         let metadataType = "Article"
         
         let metadataJson: JSON = .Object([
