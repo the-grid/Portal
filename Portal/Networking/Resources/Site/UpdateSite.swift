@@ -1,10 +1,6 @@
 import struct Alamofire.Response
 import Result
 
-private func url(id: String) -> String {
-    return baseUrl + "/site/\(id)"
-}
-
 extension APIClient {
     /// Update the provided `site`.
     ///
