@@ -132,6 +132,10 @@
 		2CD118981C5AD9A60076D913 /* GetItemsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */; };
 		2CD1189A1C5ADA220076D913 /* GetItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118991C5ADA220076D913 /* GetItems.swift */; };
 		2CD1189B1C5ADA220076D913 /* GetItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118991C5ADA220076D913 /* GetItems.swift */; };
+		2CD1189D1C5AE2E00076D913 /* DeleteItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1189C1C5AE2E00076D913 /* DeleteItemSpec.swift */; };
+		2CD1189E1C5AE2E00076D913 /* DeleteItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1189C1C5AE2E00076D913 /* DeleteItemSpec.swift */; };
+		2CD118A01C5AE31B0076D913 /* DeleteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */; };
+		2CD118A11C5AE31B0076D913 /* DeleteItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */; };
 		2CD395071C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD395081C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395091C44471B0004D6B7 /* Result.swift */; };
@@ -257,6 +261,8 @@
 		2CB618C51C3DEA6E002766B5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
 		2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItemsSpec.swift; path = Networking/Resources/Item/GetItemsSpec.swift; sourceTree = "<group>"; };
 		2CD118991C5ADA220076D913 /* GetItems.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GetItems.swift; path = Networking/Resources/Item/GetItems.swift; sourceTree = "<group>"; };
+		2CD1189C1C5AE2E00076D913 /* DeleteItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteItemSpec.swift; path = Networking/Resources/Item/DeleteItemSpec.swift; sourceTree = "<group>"; };
+		2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteItem.swift; path = Networking/Resources/Item/DeleteItem.swift; sourceTree = "<group>"; };
 		2CD395061C443E950004D6B7 /* GetUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
 		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
@@ -386,6 +392,7 @@
 			children = (
 				2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */,
 				2CD118991C5ADA220076D913 /* GetItems.swift */,
+				2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -393,6 +400,7 @@
 		2C5678B81C59781E00FFBCD6 /* Item */ = {
 			isa = PBXGroup;
 			children = (
+				2CD1189C1C5AE2E00076D913 /* DeleteItemSpec.swift */,
 				2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */,
 				2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */,
 			);
@@ -782,6 +790,7 @@
 				2C5678B41C5977F200FFBCD6 /* GetItem.swift in Sources */,
 				2C2658031C4F569600044602 /* UpdateSite.swift in Sources */,
 				2CD5916F1C53035500002C3B /* Avatar.swift in Sources */,
+				2CD118A11C5AE31B0076D913 /* DeleteItem.swift in Sources */,
 				2CD395081C443E950004D6B7 /* GetUser.swift in Sources */,
 				2CD5916C1C52FB7600002C3B /* Author.swift in Sources */,
 				2C2657FA1C4F2A9200044602 /* DeleteSite.swift in Sources */,
@@ -822,6 +831,7 @@
 				2CD591661C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
 				2C5678C01C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD11C545FFB000AE5BA /* PublisherSpec.swift in Sources */,
+				2CD1189E1C5AE2E00076D913 /* DeleteItemSpec.swift in Sources */,
 				2C2657A01C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C6F8A681C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */,
 				2CD591601C519F4B00002C3B /* NSDateSpec.swift in Sources */,
@@ -869,6 +879,7 @@
 				2C5678B31C5977F100FFBCD6 /* GetItem.swift in Sources */,
 				2C2658021C4F569600044602 /* UpdateSite.swift in Sources */,
 				2CD5916E1C53035500002C3B /* Avatar.swift in Sources */,
+				2CD118A01C5AE31B0076D913 /* DeleteItem.swift in Sources */,
 				2CD395071C443E950004D6B7 /* GetUser.swift in Sources */,
 				2CD5916B1C52FB7600002C3B /* Author.swift in Sources */,
 				2C2657F91C4F2A9200044602 /* DeleteSite.swift in Sources */,
@@ -909,6 +920,7 @@
 				2CD591651C51B70C00002C3B /* SchemaTypeSpec.swift in Sources */,
 				2C5678BF1C59D91100FFBCD6 /* UserFixtures.swift in Sources */,
 				2C667AD01C545FFA000AE5BA /* PublisherSpec.swift in Sources */,
+				2CD1189D1C5AE2E00076D913 /* DeleteItemSpec.swift in Sources */,
 				2C26579F1C4DAC8800044602 /* GetSiteSpec.swift in Sources */,
 				2C6F8A671C59E6D400EED578 /* ColorConfigFixtures.swift in Sources */,
 				2CD5915F1C519F4B00002C3B /* NSDateSpec.swift in Sources */,
