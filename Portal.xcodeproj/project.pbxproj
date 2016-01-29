@@ -397,9 +397,9 @@
 			isa = PBXGroup;
 			children = (
 				2CD118A51C5AE8670076D913 /* CreateItem.swift */,
+				2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */,
 				2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */,
 				2CD118991C5ADA220076D913 /* GetItems.swift */,
-				2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
