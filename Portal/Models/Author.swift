@@ -5,10 +5,10 @@ import Ogra
 
 /// An author.
 public struct Author {
-    public let avatar: Avatar?
-    public let email: String?
-    public let name: String?
-    public let url: NSURL?
+    public var avatar: Avatar?
+    public var email: String?
+    public var name: String?
+    public var url: NSURL?
     
     public init(
         avatar: Avatar? = .None,

@@ -5,10 +5,10 @@ import Ogra
 
 /// An avatar.
 public struct Avatar {
-    let colors: [Color]
-    let height: Int?
-    let url: NSURL?
-    let width: Int?
+    public var colors: [Color]
+    public var height: Int?
+    public var url: NSURL?
+    public var width: Int?
     
     public init(
         colors: [Color] = [],

@@ -11,7 +11,7 @@ public struct Site {
     public var id: NSUUID
     public var name: String
     public var path: String?
-    public let owner: NSUUID
+    public var owner: NSUUID
     public var repo: String
     
     public init(

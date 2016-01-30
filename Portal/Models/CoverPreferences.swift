@@ -5,9 +5,9 @@ import Ogra
 
 /// Cover preferences.
 public struct CoverPreferences {
-    let crop: Bool
-    let filter: Bool
-    let overlay: Bool
+    public var crop: Bool
+    public var filter: Bool
+    public var overlay: Bool
     
     public init(
         crop: Bool = false,

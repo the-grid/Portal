@@ -5,14 +5,14 @@ import Ogra
 
 /// Metadata.
 public struct Metadata {
-    public let authors: [Author]
-    public let basedOnUrl: NSURL?
-    public let coverPreferences: CoverPreferences?
-    public let keywords: [String]
-    public let language: Language?
-    public let publisher: Publisher?
-    public let starred: Bool
-    public let type: SchemaType?
+    public var authors: [Author]
+    public var basedOnUrl: NSURL?
+    public var coverPreferences: CoverPreferences?
+    public var keywords: [String]
+    public var language: Language?
+    public var publisher: Publisher?
+    public var starred: Bool
+    public var type: SchemaType?
     
     public init(
         authors: [Author] = [],

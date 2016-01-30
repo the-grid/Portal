@@ -5,11 +5,11 @@ import Ogra
 
 /// An item.
 public struct Item {
-    public let content: [Block]
+    public var content: [Block]
     public let id: NSUUID
-    public let metadata: Metadata?
-    public let score: Int?
-    public let sites: [String]
+    public var metadata: Metadata?
+    public var score: Int?
+    public var sites: [String]
     
     public init(
         content: [Block],

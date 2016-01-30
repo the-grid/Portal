@@ -6,12 +6,12 @@ import Ogra
 /// A content block.
 public struct Block {
     public let createdAt: NSDate?
-    public let html: String
+    public var html: String
     public let id: NSUUID
-    public let item: NSUUID
-    public let metadata: Metadata?
-    public let type: BlockType
-    public let updatedAt: NSDate?
+    public var item: NSUUID
+    public var metadata: Metadata?
+    public var type: BlockType
+    public var updatedAt: NSDate?
     
     public init(
         createdAt: NSDate? = .None,

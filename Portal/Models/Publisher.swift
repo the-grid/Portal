@@ -5,10 +5,10 @@ import Ogra
 
 /// A publisher.
 public struct Publisher {
-    let domain: String?
-    let favicon: NSURL?
-    let name: String?
-    let url: NSURL?
+    public var domain: String?
+    public var favicon: NSURL?
+    public var name: String?
+    public var url: NSURL?
     
     public init(
         domain: String? = .None,
