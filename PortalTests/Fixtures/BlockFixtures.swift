@@ -37,3 +37,38 @@ let blockModel = Block(
     type: blockTypeModel,
     updatedAt: NSDate(timeIntervalSince1970: 1453409903.826)
 )
+
+
+private let updatedHtml = "<p>Bzz</p>"
+private let updatedItem = "6eb7a737-4ebe-4b78-b3a8-76ae49842e2a"
+private let updatedUpdatedAt = "2016-01-29T23:54:26.175Z"
+
+let updatedBlockResponseBody: [String: AnyObject] = [
+    "created_at": createdAt,
+    "html": updatedHtml,
+    "id": id,
+    "item": updatedItem,
+    "metadata": updatedMetadataResponseBody,
+    "type": updatedBlockTypeResponseBody,
+    "updated_at": updatedUpdatedAt
+]
+
+let updatedBlockJson: JSON = .Object([
+    "created_at": .String(createdAt),
+    "html": .String(updatedHtml),
+    "id": .String(id),
+    "item": .String(updatedItem),
+    "metadata": updatedMetadataJson,
+    "type": updatedBlockTypeJson,
+    "updated_at": .String(updatedUpdatedAt)
+])
+
+let updatedBlockModel: Block = {
+    var model = blockModel
+    model.html = updatedHtml
+    model.item = NSUUID(UUIDString: updatedItem)!
+    model.metadata = updatedMetadataModel
+    model.type = updatedBlockTypeModel
+    model.updatedAt = NSDate(timeIntervalSince1970: 1454111666.175)
+    return model
+}()

@@ -26,3 +26,31 @@ let avatarModel = Avatar(
     url: NSURL(string: url)!,
     width: width
 )
+
+
+private let updatedHeight = 256
+private let updatedUrl = "https://pbs.twimg.com/profile_images/604883111558549504/COzPL8wt.png"
+private let updatedWidth = 256
+
+let updatedAvatarResponseBody: [String: AnyObject] = [
+    "colors": [ updatedColorRgbResponseBody ],
+    "height": updatedHeight,
+    "src": updatedUrl,
+    "width": updatedWidth
+]
+
+let updatedAvatarJson: JSON = .Object([
+    "colors": .Array([ updatedColorRgbJson ]),
+    "height": .Number(updatedHeight),
+    "src": .String(updatedUrl),
+    "width": .Number(updatedWidth)
+])
+
+let updatedAvatarModel: Avatar = {
+    var model = avatarModel
+    model.colors = [ updatedColorModel ]
+    model.height = updatedHeight
+    model.url = NSURL(string: updatedUrl)!
+    model.width = updatedWidth
+    return model
+}()

@@ -38,3 +38,43 @@ let metadataModel = Metadata(
     starred: starred,
     type: schemaTypeModel
 )
+
+
+private let updatedBasedOnUrl = "https://gridbeard.com"
+private let updatedKeywords = [ "grid", "beard" ]
+private let updatedStarred = false
+
+let updatedMetadataResponseBody: [String: AnyObject] = [
+    "authors": [ updatedAuthorResponseBody ],
+    "isBasedOnUrl": updatedBasedOnUrl,
+    "coverPrefs": updatedCoverPreferencesResponseBody,
+    "keywords": updatedKeywords,
+    "inLanguage": updatedLanguageResponseBody,
+    "publisher": updatedPublisherResponseBody,
+    "starred": updatedStarred,
+    "@type": updatedSchemaTypeResponseBody
+]
+
+let updatedMetadataJson: JSON = .Object([
+    "authors": .Array([ updatedAuthorJson ]),
+    "isBasedOnUrl": .String(updatedBasedOnUrl),
+    "coverPrefs": updatedCoverPreferencesJson,
+    "keywords": .Array(updatedKeywords.map(JSON.String)),
+    "inLanguage": updatedLanguageJson,
+    "publisher": updatedPublisherJson,
+    "starred": .Number(updatedStarred),
+    "@type": updatedSchemaTypeJson
+])
+
+let updatedMetadataModel: Metadata = {
+    var model = metadataModel
+    model.authors = [ updatedAuthorModel ]
+    model.basedOnUrl = NSURL(string: updatedBasedOnUrl)!
+    model.coverPreferences = updatedCoverPreferencesModel
+    model.keywords = updatedKeywords
+    model.language = updatedLanguageModel
+    model.publisher = updatedPublisherModel
+    model.starred = updatedStarred
+    model.type = updatedSchemaTypeModel
+    return model
+}()

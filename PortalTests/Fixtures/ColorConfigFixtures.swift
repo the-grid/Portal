@@ -45,3 +45,45 @@ let colorConfigModel = ColorConfig(
     lightness: lightness,
     saturation: saturation
 )
+
+
+private let updatedBrandColors = [
+    "#ff0000",
+    "#00ff00",
+    "#0000ff",
+    "#00ffff",
+    "#ffff00"
+]
+
+private let updatedBrandStrength: Float = 0
+private let updatedLightness: Float = 0
+private let updatedSaturation: Float = 0
+
+let updatedColorConfigResponseBody: [String: AnyObject] = [
+    "brandColors": updatedBrandColors,
+    "brandStrength": updatedBrandStrength,
+    "lightness": updatedLightness,
+    "saturation": updatedSaturation
+]
+
+let updatedColorConfigJson: JSON = .Object([
+    "brandColors": .Array(updatedBrandColors.map(JSON.String)),
+    "brandStrength": .Number(updatedBrandStrength),
+    "lightness": .Number(updatedLightness),
+    "saturation": .Number(updatedSaturation)
+])
+
+let updatedColorConfigModel: ColorConfig = {
+    var model = colorConfigModel
+    model.brandColors = [
+        Color(red: 1, green: 0, blue: 0, alpha: 1),
+        Color(red: 0, green: 1, blue: 0, alpha: 1),
+        Color(red: 0, green: 0, blue: 1, alpha: 1),
+        Color(red: 0, green: 1, blue: 1, alpha: 1),
+        Color(red: 1, green: 1, blue: 0, alpha: 1)
+    ]
+    model.brandStrength = updatedBrandStrength
+    model.lightness = updatedLightness
+    model.saturation = updatedSaturation
+    return model
+}()

@@ -27,3 +27,32 @@ let publisherModel = Publisher(
     name: name,
     url: NSURL(string: url)!
 )
+
+
+private let updatedDomain = "gridbeard.com"
+private let updatedFavicon = "https://gridbeard.com"
+private let updatedName = "Grid Beard"
+private let updatedUrl = "https://gridbeard.com/favicon.png"
+
+let updatedPublisherResponseBody: [String: AnyObject] = [
+    "domain": updatedDomain,
+    "favicon": updatedFavicon,
+    "name": updatedName,
+    "url": updatedUrl
+]
+
+let updatedPublisherJson: JSON = .Object([
+    "domain": .String(updatedDomain),
+    "favicon": .String(updatedFavicon),
+    "name": .String(updatedName),
+    "url": .String(updatedUrl)
+])
+
+let updatedPublisherModel: Publisher = {
+    var model = publisherModel
+    model.domain = updatedDomain
+    model.favicon = NSURL(string: updatedFavicon)!
+    model.name = updatedName
+    model.url = NSURL(string: updatedUrl)!
+    return model
+}()

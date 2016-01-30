@@ -29,3 +29,32 @@ let itemModel = Item(
     score: score,
     sites: sites
 )
+
+
+private let updatedScore = 0
+private let updatedSites = [ "the-domains/grid-beard" ]
+
+let updatedItemResponseBody: [String: AnyObject] = [
+    "content": [ updatedBlockResponseBody ],
+    "id": id,
+    "metadata": updatedMetadataResponseBody,
+    "score": updatedScore,
+    "sites": updatedSites
+]
+
+let updatedItemJson: JSON = .Object([
+    "content": .Array([ updatedBlockJson ]),
+    "id": .String(id),
+    "metadata": updatedMetadataJson,
+    "score": .Number(updatedScore),
+    "sites": .Array(updatedSites.map(JSON.String))
+])
+
+let updatedItemModel: Item = {
+    var model = itemModel
+    model.content = [ updatedBlockModel ]
+    model.metadata = updatedMetadataModel
+    model.score = updatedScore
+    model.sites = updatedSites
+    return model
+}()
