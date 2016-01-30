@@ -24,5 +24,5 @@ let authorModel = Author(
     avatar: avatarModel,
     email: email,
     name: name,
-    url: NSURL(string: url)
+    url: NSURL(string: url)!
 )

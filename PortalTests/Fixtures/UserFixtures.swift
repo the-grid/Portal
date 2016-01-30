@@ -28,7 +28,7 @@ let userJson: JSON = .Object([
 ])
 
 let userModel = User(
-    avatarUrl: NSURL(string: avatarUrl),
+    avatarUrl: NSURL(string: avatarUrl)!,
     emailAddress: emailAddress,
     founderNumber: founderNumber,
     id: NSUUID(UUIDString: id)!,

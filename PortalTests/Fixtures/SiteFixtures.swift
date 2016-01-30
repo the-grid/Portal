@@ -35,7 +35,7 @@ let siteJson: JSON = .Object([
 let siteModel = Site(
     config: siteConfigModel,
     domain: domain,
-    favlogo: NSURL(string: favlogo),
+    favlogo: NSURL(string: favlogo)!,
     id: NSUUID(UUIDString: id)!,
     name: name,
     path: path,

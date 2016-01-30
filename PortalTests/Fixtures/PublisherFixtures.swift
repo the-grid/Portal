@@ -23,7 +23,7 @@ let publisherJson: JSON = .Object([
 
 let publisherModel = Publisher(
     domain: domain,
-    favicon: NSURL(string: favicon),
+    favicon: NSURL(string: favicon)!,
     name: name,
-    url: NSURL(string: url)
+    url: NSURL(string: url)!
 )

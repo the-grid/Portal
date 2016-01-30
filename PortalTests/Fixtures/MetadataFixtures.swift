@@ -30,7 +30,7 @@ let metadataJson: JSON = .Object([
 
 let metadataModel = Metadata(
     authors: [ authorModel ],
-    basedOnUrl: NSURL(string: basedOnUrl),
+    basedOnUrl: NSURL(string: basedOnUrl)!,
     coverPreferences: coverPreferencesModel,
     keywords: keywords,
     language: languageModel,

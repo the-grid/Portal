@@ -23,6 +23,6 @@ let avatarJson: JSON = .Object([
 let avatarModel = Avatar(
     colors: [ colorModel ],
     height: height,
-    url: NSURL(string: url),
+    url: NSURL(string: url)!,
     width: width
 )

@@ -25,8 +25,8 @@ let siteConfigJson: JSON = .Object([
 
 let siteConfigModel = SiteConfig(
     color: colorConfigModel,
-    favicon: NSURL(string: favicon),
+    favicon: NSURL(string: favicon)!,
     layout: layout,
-    logo: NSURL(string: logo),
+    logo: NSURL(string: logo)!,
     typography: typography
 )

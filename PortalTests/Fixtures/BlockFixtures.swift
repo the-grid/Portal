@@ -34,6 +34,6 @@ let blockModel = Block(
     id: NSUUID(UUIDString: id)!,
     item: NSUUID(UUIDString: item)!,
     metadata: metadataModel,
-    type: blockTypeModel!,
+    type: blockTypeModel,
     updatedAt: NSDate(timeIntervalSince1970: 1453409903.826)
 )
