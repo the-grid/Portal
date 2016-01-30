@@ -140,6 +140,10 @@
 		2CD118A41C5AE8300076D913 /* CreateItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118A21C5AE8300076D913 /* CreateItemSpec.swift */; };
 		2CD118A61C5AE8670076D913 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118A51C5AE8670076D913 /* CreateItem.swift */; };
 		2CD118A71C5AE8670076D913 /* CreateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118A51C5AE8670076D913 /* CreateItem.swift */; };
+		2CD118A91C5B00750076D913 /* UpdateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118A81C5B00750076D913 /* UpdateItem.swift */; };
+		2CD118AA1C5B00750076D913 /* UpdateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118A81C5B00750076D913 /* UpdateItem.swift */; };
+		2CD118AC1C5B00D00076D913 /* UpdateItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118AB1C5B00D00076D913 /* UpdateItemSpec.swift */; };
+		2CD118AD1C5B00D00076D913 /* UpdateItemSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD118AB1C5B00D00076D913 /* UpdateItemSpec.swift */; };
 		2CD395071C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD395081C443E950004D6B7 /* GetUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395061C443E950004D6B7 /* GetUser.swift */; };
 		2CD3950A1C44471B0004D6B7 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD395091C44471B0004D6B7 /* Result.swift */; };
@@ -269,6 +273,8 @@
 		2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DeleteItem.swift; path = Networking/Resources/Item/DeleteItem.swift; sourceTree = "<group>"; };
 		2CD118A21C5AE8300076D913 /* CreateItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateItemSpec.swift; path = Networking/Resources/Item/CreateItemSpec.swift; sourceTree = "<group>"; };
 		2CD118A51C5AE8670076D913 /* CreateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CreateItem.swift; path = Networking/Resources/Item/CreateItem.swift; sourceTree = "<group>"; };
+		2CD118A81C5B00750076D913 /* UpdateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateItem.swift; path = Networking/Resources/Item/UpdateItem.swift; sourceTree = "<group>"; };
+		2CD118AB1C5B00D00076D913 /* UpdateItemSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UpdateItemSpec.swift; path = Networking/Resources/Item/UpdateItemSpec.swift; sourceTree = "<group>"; };
 		2CD395061C443E950004D6B7 /* GetUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetUser.swift; sourceTree = "<group>"; };
 		2CD395091C44471B0004D6B7 /* Result.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Networking/Extensions/Result.swift; sourceTree = "<group>"; };
 		2CD3950C1C444A7A0004D6B7 /* ResultProxy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultProxy.swift; path = Networking/Extensions/ResultProxy.swift; sourceTree = "<group>"; };
@@ -400,6 +406,7 @@
 				2CD1189F1C5AE31B0076D913 /* DeleteItem.swift */,
 				2C5678AD1C588C4C00FFBCD6 /* GetItem.swift */,
 				2CD118991C5ADA220076D913 /* GetItems.swift */,
+				2CD118A81C5B00750076D913 /* UpdateItem.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -411,6 +418,7 @@
 				2CD1189C1C5AE2E00076D913 /* DeleteItemSpec.swift */,
 				2C5678B51C59781200FFBCD6 /* GetItemSpec.swift */,
 				2CD118961C5AD9A60076D913 /* GetItemsSpec.swift */,
+				2CD118AB1C5B00D00076D913 /* UpdateItemSpec.swift */,
 			);
 			name = Item;
 			sourceTree = "<group>";
@@ -814,6 +822,7 @@
 				2C3D48F21C5062F70028B983 /* Item.swift in Sources */,
 				2CDDD65F1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657951C4DA63B00044602 /* GetSites.swift in Sources */,
+				2CD118AA1C5B00750076D913 /* UpdateItem.swift in Sources */,
 				2CD591541C516BF300002C3B /* Block.swift in Sources */,
 				2C8DDD921C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187F1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
@@ -861,6 +870,7 @@
 				2CD118981C5AD9A60076D913 /* GetItemsSpec.swift in Sources */,
 				2C2657FD1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667ADA1C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
+				2CD118AD1C5B00D00076D913 /* UpdateItemSpec.swift in Sources */,
 				2CD5915A1C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2CD118A41C5AE8300076D913 /* CreateItemSpec.swift in Sources */,
 				2C667AD71C5463B3000AE5BA /* LanguageSpec.swift in Sources */,
@@ -905,6 +915,7 @@
 				2C3D48F11C5062F70028B983 /* Item.swift in Sources */,
 				2CDDD65E1C46EC390041BF06 /* Manager.swift in Sources */,
 				2C2657941C4DA63B00044602 /* GetSites.swift in Sources */,
+				2CD118A91C5B00750076D913 /* UpdateItem.swift in Sources */,
 				2CD591531C516BF300002C3B /* Block.swift in Sources */,
 				2C8DDD911C49AEC900ABC36B /* SiteConfig.swift in Sources */,
 				2C9C187E1C3F3FE70039DAB5 /* APIClient.swift in Sources */,
@@ -952,6 +963,7 @@
 				2CD118971C5AD9A60076D913 /* GetItemsSpec.swift in Sources */,
 				2C2657FC1C4F2B8A00044602 /* DeleteSiteSpec.swift in Sources */,
 				2C667AD91C5469C2000AE5BA /* MetadataSpec.swift in Sources */,
+				2CD118AC1C5B00D00076D913 /* UpdateItemSpec.swift in Sources */,
 				2CD591591C5183CA00002C3B /* BlockTypeSpec.swift in Sources */,
 				2CD118A31C5AE8300076D913 /* CreateItemSpec.swift in Sources */,
 				2C667AD61C5463B3000AE5BA /* LanguageSpec.swift in Sources */,
